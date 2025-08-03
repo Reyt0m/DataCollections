@@ -1,0 +1,517 @@
+{
+  "total_researchers": 2,
+  "processed_researchers": 2,
+  "total_competitive_projects": 40,
+  "researchers": [
+    {
+      "name": "兼松 秀行",
+      "researcher_url": "https://researchmap.jp/hidekanematsu",
+      "researcher_id": "hidekanematsu",
+      "english_name": "Hideyuki Kanematsu",
+      "affiliation": "株式会社BEL （常勤）",
+      "position": "代表",
+      "kana_name": "カネマツ ヒデユキ",
+      "all_projects": [
+        {
+          "title": "鉄鋼材料およびスラグ上に形成したバイオフィルムの３顕微鏡同一箇所水中その場解析",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/46614481",
+          "project_id": "46614481",
+          "is_competitive": true
+        },
+        {
+          "title": "革新的キャリアマネージメント機構の創出による超高効率塗布型太陽電池の創製",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898614",
+          "project_id": "36898614",
+          "is_competitive": true
+        },
+        {
+          "title": "A-txtによるセル・デコ教科書とAI・ｘRを駆使したカスタマブル授業形態の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898609",
+          "project_id": "36898609",
+          "is_competitive": true
+        },
+        {
+          "title": "DXによる教育変革を期待するPBL教育のためのサイバネティック・アバターデザイン",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898590",
+          "project_id": "36898590",
+          "is_competitive": true
+        },
+        {
+          "title": "交流電磁界を利用した非接触バイオフィルム/感染制御システムの開発研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898572",
+          "project_id": "36898572",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料およびスラグ上に形成したバイオフィルムのＳＩＣＭによる水中その場観察",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898596",
+          "project_id": "36898596",
+          "is_competitive": true
+        },
+        {
+          "title": "Society 5.0指向の問題解決型学習評価指標・フィードバックシステムの構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36580099",
+          "project_id": "36580099",
+          "is_competitive": true
+        },
+        {
+          "title": "グラフェンの生体内重合物質感受性と感染力センサーへの適用に関する基礎的研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648924",
+          "project_id": "11648924",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオフィルム生成超初期過程の走査型イオン伝導顕微鏡その場観察",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648928",
+          "project_id": "11648928",
+          "is_competitive": true
+        },
+        {
+          "title": "効果的な仮想空間内アクティブラーニング実現へ向けた生体情報利活用手法の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648925",
+          "project_id": "11648925",
+          "is_competitive": true
+        },
+        {
+          "title": "フレキシブル有機半導体の屈曲性改善と評価手法の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/44974323",
+          "project_id": "44974323",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料表面に形成されたバイオフィルムの鉱物化に関する研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648926",
+          "project_id": "11648926",
+          "is_competitive": true
+        },
+        {
+          "title": "温泉熱利用発電のためのスケール対策物理処理技術の研究開発",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648929",
+          "project_id": "11648929",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオフィルム生成超初期における金属材料表面への細菌の付着性の評価",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648927",
+          "project_id": "11648927",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料表面におけるバイオフィルム易形成機構の解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/45354592",
+          "project_id": "45354592",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオ技術活用の防汚鏡と低バックラッシ機構によりLCC を最小化す る集光装置の開発",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/10178992",
+          "project_id": "10178992",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄-細菌結合を用いた磁場による放射性物質除染プロセスの可能性探索",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9968955",
+          "project_id": "9968955",
+          "is_competitive": true
+        },
+        {
+          "title": "海洋菌バイオフィルム形成抑制を目的とした金属材料表面改質と抑制メカニズムの解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9968954",
+          "project_id": "9968954",
+          "is_competitive": true
+        },
+        {
+          "title": "実験細胞を用いた亜鉛等重金属の環境リスク評価と熱処理合金化による環境負荷低減技術の開発研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9715865",
+          "project_id": "9715865",
+          "is_competitive": true
+        },
+        {
+          "title": "ヒト培養細胞アッセイによるめっき加工品からの重金属溶出と生体毒性との関連性の解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/45244505",
+          "project_id": "45244505",
+          "is_competitive": true
+        }
+      ],
+      "competitive_projects": [
+        {
+          "title": "鉄鋼材料およびスラグ上に形成したバイオフィルムの３顕微鏡同一箇所水中その場解析",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/46614481",
+          "project_id": "46614481",
+          "is_competitive": true
+        },
+        {
+          "title": "革新的キャリアマネージメント機構の創出による超高効率塗布型太陽電池の創製",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898614",
+          "project_id": "36898614",
+          "is_competitive": true
+        },
+        {
+          "title": "A-txtによるセル・デコ教科書とAI・ｘRを駆使したカスタマブル授業形態の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898609",
+          "project_id": "36898609",
+          "is_competitive": true
+        },
+        {
+          "title": "DXによる教育変革を期待するPBL教育のためのサイバネティック・アバターデザイン",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898590",
+          "project_id": "36898590",
+          "is_competitive": true
+        },
+        {
+          "title": "交流電磁界を利用した非接触バイオフィルム/感染制御システムの開発研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898572",
+          "project_id": "36898572",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料およびスラグ上に形成したバイオフィルムのＳＩＣＭによる水中その場観察",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898596",
+          "project_id": "36898596",
+          "is_competitive": true
+        },
+        {
+          "title": "Society 5.0指向の問題解決型学習評価指標・フィードバックシステムの構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36580099",
+          "project_id": "36580099",
+          "is_competitive": true
+        },
+        {
+          "title": "グラフェンの生体内重合物質感受性と感染力センサーへの適用に関する基礎的研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648924",
+          "project_id": "11648924",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオフィルム生成超初期過程の走査型イオン伝導顕微鏡その場観察",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648928",
+          "project_id": "11648928",
+          "is_competitive": true
+        },
+        {
+          "title": "効果的な仮想空間内アクティブラーニング実現へ向けた生体情報利活用手法の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648925",
+          "project_id": "11648925",
+          "is_competitive": true
+        },
+        {
+          "title": "フレキシブル有機半導体の屈曲性改善と評価手法の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/44974323",
+          "project_id": "44974323",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料表面に形成されたバイオフィルムの鉱物化に関する研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648926",
+          "project_id": "11648926",
+          "is_competitive": true
+        },
+        {
+          "title": "温泉熱利用発電のためのスケール対策物理処理技術の研究開発",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648929",
+          "project_id": "11648929",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオフィルム生成超初期における金属材料表面への細菌の付着性の評価",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648927",
+          "project_id": "11648927",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料表面におけるバイオフィルム易形成機構の解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/45354592",
+          "project_id": "45354592",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオ技術活用の防汚鏡と低バックラッシ機構によりLCC を最小化す る集光装置の開発",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/10178992",
+          "project_id": "10178992",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄-細菌結合を用いた磁場による放射性物質除染プロセスの可能性探索",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9968955",
+          "project_id": "9968955",
+          "is_competitive": true
+        },
+        {
+          "title": "海洋菌バイオフィルム形成抑制を目的とした金属材料表面改質と抑制メカニズムの解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9968954",
+          "project_id": "9968954",
+          "is_competitive": true
+        },
+        {
+          "title": "実験細胞を用いた亜鉛等重金属の環境リスク評価と熱処理合金化による環境負荷低減技術の開発研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9715865",
+          "project_id": "9715865",
+          "is_competitive": true
+        },
+        {
+          "title": "ヒト培養細胞アッセイによるめっき加工品からの重金属溶出と生体毒性との関連性の解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/45244505",
+          "project_id": "45244505",
+          "is_competitive": true
+        }
+      ],
+      "competitive_project_count": 20
+    },
+    {
+      "name": "池田 裕二",
+      "researcher_url": "https://researchmap.jp/yuji-ikeda-ilab",
+      "researcher_id": "yuji-ikeda-ilab",
+      "english_name": "Yuji Ikeda",
+      "affiliation": "アイラボ株式会社",
+      "position": "CTO",
+      "kana_name": "池田 裕二",
+      "all_projects": [
+        {
+          "title": "非平衡プラズマによるスマート燃焼サーマルマネージメント",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45369057",
+          "project_id": "45369057",
+          "is_competitive": true
+        },
+        {
+          "title": "実証研究 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410137",
+          "project_id": "42410137",
+          "is_competitive": true
+        },
+        {
+          "title": "次世代燃料の遠隔分析技術開発とMOX燃料による実証的研究",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410002",
+          "project_id": "42410002",
+          "is_competitive": true
+        },
+        {
+          "title": "非平衡プラズマによる含水物超燃焼熱システムの着火・燃焼過程の解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45270728",
+          "project_id": "45270728",
+          "is_competitive": true
+        },
+        {
+          "title": "実用化開発 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410121",
+          "project_id": "42410121",
+          "is_competitive": true
+        },
+        {
+          "title": "大気圧・空気プラズマを利用した揮発性有機化合物（VOC）等の無害化装置の開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410039",
+          "project_id": "42410039",
+          "is_competitive": true
+        },
+        {
+          "title": "先導研究開発 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410113",
+          "project_id": "42410113",
+          "is_competitive": true
+        },
+        {
+          "title": "スパークプラグ埋込型光着火・プラズマ分光計測システムの開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410024",
+          "project_id": "42410024",
+          "is_competitive": true
+        },
+        {
+          "title": "ナノ秒・ナノメートルの着火・消炎メカニズムの解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45096050",
+          "project_id": "45096050",
+          "is_competitive": true
+        },
+        {
+          "title": "大学発ベンチャー創出推進事業",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42409980",
+          "project_id": "42409980",
+          "is_competitive": true
+        },
+        {
+          "title": "ナノ秒・ナノメートルの着火・消炎現象の光学計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44996790",
+          "project_id": "44996790",
+          "is_competitive": true
+        },
+        {
+          "title": "高密度光による火炎制御と光スペクトル計測による光と火炎の干渉機構の解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44910106",
+          "project_id": "44910106",
+          "is_competitive": true
+        },
+        {
+          "title": "高空間・高波長分解能をもつ高速分光システムの開発と火炎計測への応用",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44857947",
+          "project_id": "44857947",
+          "is_competitive": true
+        },
+        {
+          "title": "圧力感知粒子を用いた高乱流中の速度―圧力相関のレーザ計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44877102",
+          "project_id": "44877102",
+          "is_competitive": true
+        },
+        {
+          "title": "半導体レーザ分光を用いた低環境負荷高効率ガスタービン燃焼器の開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44810334",
+          "project_id": "44810334",
+          "is_competitive": true
+        },
+        {
+          "title": "光学的計測を駆使した噴霧の時空間構造の解明とその燃焼機構",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44804713",
+          "project_id": "44804713",
+          "is_competitive": true
+        },
+        {
+          "title": "熱流体現象の光学的計測結果からの知識発見",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44826232",
+          "project_id": "44826232",
+          "is_competitive": true
+        },
+        {
+          "title": "熱流体現象の光学的計測結果からの知識発見",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44801985",
+          "project_id": "44801985",
+          "is_competitive": true
+        },
+        {
+          "title": "乱流燃焼構造の光学的計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44786274",
+          "project_id": "44786274",
+          "is_competitive": true
+        },
+        {
+          "title": "光学測定による噴霧燃料の燃焼機構の解明とそのモデリングに関する研究",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44692934",
+          "project_id": "44692934",
+          "is_competitive": true
+        }
+      ],
+      "competitive_projects": [
+        {
+          "title": "非平衡プラズマによるスマート燃焼サーマルマネージメント",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45369057",
+          "project_id": "45369057",
+          "is_competitive": true
+        },
+        {
+          "title": "実証研究 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410137",
+          "project_id": "42410137",
+          "is_competitive": true
+        },
+        {
+          "title": "次世代燃料の遠隔分析技術開発とMOX燃料による実証的研究",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410002",
+          "project_id": "42410002",
+          "is_competitive": true
+        },
+        {
+          "title": "非平衡プラズマによる含水物超燃焼熱システムの着火・燃焼過程の解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45270728",
+          "project_id": "45270728",
+          "is_competitive": true
+        },
+        {
+          "title": "実用化開発 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410121",
+          "project_id": "42410121",
+          "is_competitive": true
+        },
+        {
+          "title": "大気圧・空気プラズマを利用した揮発性有機化合物（VOC）等の無害化装置の開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410039",
+          "project_id": "42410039",
+          "is_competitive": true
+        },
+        {
+          "title": "先導研究開発 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410113",
+          "project_id": "42410113",
+          "is_competitive": true
+        },
+        {
+          "title": "スパークプラグ埋込型光着火・プラズマ分光計測システムの開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410024",
+          "project_id": "42410024",
+          "is_competitive": true
+        },
+        {
+          "title": "ナノ秒・ナノメートルの着火・消炎メカニズムの解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45096050",
+          "project_id": "45096050",
+          "is_competitive": true
+        },
+        {
+          "title": "大学発ベンチャー創出推進事業",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42409980",
+          "project_id": "42409980",
+          "is_competitive": true
+        },
+        {
+          "title": "ナノ秒・ナノメートルの着火・消炎現象の光学計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44996790",
+          "project_id": "44996790",
+          "is_competitive": true
+        },
+        {
+          "title": "高密度光による火炎制御と光スペクトル計測による光と火炎の干渉機構の解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44910106",
+          "project_id": "44910106",
+          "is_competitive": true
+        },
+        {
+          "title": "高空間・高波長分解能をもつ高速分光システムの開発と火炎計測への応用",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44857947",
+          "project_id": "44857947",
+          "is_competitive": true
+        },
+        {
+          "title": "圧力感知粒子を用いた高乱流中の速度―圧力相関のレーザ計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44877102",
+          "project_id": "44877102",
+          "is_competitive": true
+        },
+        {
+          "title": "半導体レーザ分光を用いた低環境負荷高効率ガスタービン燃焼器の開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44810334",
+          "project_id": "44810334",
+          "is_competitive": true
+        },
+        {
+          "title": "光学的計測を駆使した噴霧の時空間構造の解明とその燃焼機構",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44804713",
+          "project_id": "44804713",
+          "is_competitive": true
+        },
+        {
+          "title": "熱流体現象の光学的計測結果からの知識発見",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44826232",
+          "project_id": "44826232",
+          "is_competitive": true
+        },
+        {
+          "title": "熱流体現象の光学的計測結果からの知識発見",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44801985",
+          "project_id": "44801985",
+          "is_competitive": true
+        },
+        {
+          "title": "乱流燃焼構造の光学的計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44786274",
+          "project_id": "44786274",
+          "is_competitive": true
+        },
+        {
+          "title": "光学測定による噴霧燃料の燃焼機構の解明とそのモデリングに関する研究",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44692934",
+          "project_id": "44692934",
+          "is_competitive": true
+        }
+      ],
+      "competitive_project_count": 20
+    }
+  ],
+  "scraped_at": "2025-08-03 16:13:44",
+  "search_url": "https://researchmap.jp/researchers?affiliation=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE"
+}

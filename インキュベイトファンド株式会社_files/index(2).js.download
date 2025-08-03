@@ -1,0 +1,30 @@
+$('#menu_opener').click(function(){
+  $('#menu_modal').toggleClass('open')
+  $(this).toggleClass('open')
+})
+
+$('.word-span').each(function(){
+  var innerText = $(this).text();
+  if($(this).hasClass('__double')){
+    var output = '';
+    for(var i = 0; i < innerText.length; i++){
+      if(innerText[i] !== ' '){
+        output += '<span class="wrap"><span class="w1">' + innerText[i] + '</span><span class="w2">' + innerText[i] + '</span></span>'
+      }else{
+        output += '<span class="wrap"><span class="w1">' + '&nbsp;' + '</span><span class="w2"></span></span>'
+      }
+    }
+    $(this).html(output);
+  }else if($(this).hasClass('__single')){
+    var output = '';
+    for(var i = 0; i < innerText.length; i++){
+      if(innerText[i] !== ' '){
+        output += '<span class="wrap"><span class="w">' + innerText[i] + '</span></span>'
+      }else{
+        output += '<span class="wrap"><span class="w1">' + '&nbsp;' + '</span></span>'
+      }
+    }
+    $(this).html(output);
+  }
+
+})

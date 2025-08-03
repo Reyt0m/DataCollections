@@ -1,0 +1,50 @@
+# Portfolio Scraper用のURLリスト
+# 各行に1つのURLを記述してください
+# #で始まる行はコメントとして扱われます
+
+# サンプルURL（実際のURLに置き換えてください）
+https://example.com
+https://example.org
+
+# 実際のベンチャーキャピタルや投資会社のURLを追加してください
+# 例：
+# https://www.sbvc.co.jp
+# https://www.incubatefund.com
+# https://www.cyberagent.co.jp/ventures
+https://www.15th-rock.com
+https://abies.vc/
+https://anri.vc
+http://beyondnextventures.com/
+https://bonds-ig.co
+https://coralcap.co
+https://dronefund.vc
+http://www.ffg-venture.co.jp/
+https://capital.jmtc.co.jp/
+http://www.k4v.co.jp
+https://mkto-capital.jp
+https://www.medvp.co.jp
+https://qbc.co.jp
+http://www.sbinvestment.co.jp/
+https://www.techv.co.jp
+https://incubatefund.com
+https://www.weruinvest.com
+https://www.ouvc.co.jp
+https://www.ksp.co.jp
+https://www.keio-innovation.co.jp
+https://www.samurai-incubate.asia/
+https://www.genesiaventures.com/
+http://www.jafco.co.jp/
+https://deepcore.jp/
+https://www.deftacapital.jp
+https://www.ut-ec.co.jp
+https://www.utokyo-ipc.co.jp
+https://tusic.co.jp
+https://www.nissay-cap.co.jp/
+https://www.nvcc.co.jp/
+https://www.bs-capital.co.jp
+https://www.fti-jp.com
+https://miyakocapital.com
+https://miraisozo.co.jp
+https://www.mickk.com
+https://www.umi.co.jp
+https://www.realtech.holdings

@@ -1,0 +1,19 @@
+<svg id="icon-pagetop.svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b5b5b6;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #201715;
+        stroke-linecap: square;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="長方形_10" data-name="長方形 10" class="cls-1" width="28" height="28" rx="3" ry="3"/>
+  <path id="シェイプ_1" data-name="シェイプ 1" class="cls-2" d="M1219,4488l7-10,7,10" transform="translate(-1212 -4469)"/>
+</svg>

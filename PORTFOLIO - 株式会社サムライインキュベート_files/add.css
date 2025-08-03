@@ -1,0 +1,49 @@
+.add-section_1 .c-figure .caption_type_a{
+	font-size:0.5rem;
+}
+.add-section_1 .c-figure .caption_type_a em{
+	height:auto;
+	margin-bottom:0px;
+	font-size:2.1rem;
+	font-weight: 600;
+	line-height:1.5;
+}
+.add-section_1 .c-figure .caption_type_a{
+	text-align:center;
+	margin-top:1.5rem;
+}
+.add-section_1 .banner_type_a{
+	margin-bottom:5rem;
+}
+.add-section_1 .banner_type_a .banner{
+	background:url(../images/pages/business/innovation_support/banner_bg_1.png);
+	background-size:cover;
+	background-position: center center;
+	text-align:center;
+	padding-top:165px;
+	/*padding:10rem 5rem 10rem 5rem;*/
+}
+.add-section_1 .banner_type_a .banner em{
+	color:#fff;
+	border:5px solid #fff;
+	padding:2rem;
+	font-size:2rem;
+	font-weight:600;
+	display:inline-block;
+}
+.add-section_1 .banner_type_a a{
+	color:#000;
+}
+
+@media screen and (max-width: 767px){
+
+	.add-section_1 .banner_type_a .banner{
+		background:url(../images/pages/business/innovation_support/banner_bg_2.png);
+		background-size:cover;
+		background-position: center center;
+		text-align:center;
+		padding-top:65%;
+		/*padding:10rem 5rem 10rem 5rem;*/
+	}
+
+}

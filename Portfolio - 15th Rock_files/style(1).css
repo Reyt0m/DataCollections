@@ -1,0 +1,20 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://wp-themes.com/oceanwp
+Author: ChildThemeWP.com
+Author URI: https://childthemewp.com
+Description: My WordPress OceanWP child theme.
+Template: oceanwp
+License: GNU General Public License v3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.0.0
+Text Domain: oceanwp-child
+*/
+
+a {
+    text-decoration:none!important;
+}
+
+a.menu-link {
+    text-decoration:noneimportant;
+}
