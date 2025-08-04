@@ -1,0 +1,36 @@
+/**
+ * user_attributes/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+ul.user-attribute-edit {
+	padding-left: 0px;
+}
+
+.user-attribute-move,
+.user-attribute-display {
+	margin-right: 10px;
+}
+
+.user-attribute-choices-form {
+	margin-bottom: 8px;
+}
+.user-attribute-scrollable {
+	max-height: 180px;
+}
+
+div.user-attribute-label {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.user-attribute-edit .list-group-item.disabled {
+	cursor: auto;
+}
+
+.user-attribute-edit button.user-attributes-display-btn {
+	min-width: 64px;
+}

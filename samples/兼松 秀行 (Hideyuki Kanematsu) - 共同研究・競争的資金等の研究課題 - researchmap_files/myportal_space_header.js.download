@@ -1,0 +1,17 @@
+/**
+ * @fileoverview MyportalSpaceHeader Javascript
+ * @author masukawa@nii.ac.jp (Ryuji Masukawa)
+ */
+
+
+/**
+ * Load  Event and Resize Event
+ *
+ * @param {string} Controller name
+ * @param {function()} Controller
+ */
+$(window).on('load resize', function() {
+  var photo = $('#rm-cover-photo'), header = $('#container-header');
+  photo.width(header.innerWidth());
+  photo.height(header.innerHeight());
+});

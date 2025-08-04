@@ -1,0 +1,90 @@
+/**
+ * researchmap ページテーマ
+ *
+ * @author Japan Science and Technology Agency
+ * @author National Institute of Informatics
+ * @link http://researchmap.jp researchmap Project
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://researchmap.jp/public/terms-of-service/ researchmap license
+ * @copyright Copyright 2017, researchmap Project
+ */
+
+/* ページヘッダー */
+.rm-page-header {
+	color: #fff;
+	position: relative;
+}
+.rm-page-header .popover {
+	color: #333;
+}
+
+.rm-page-header nav {
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+	margin-bottom: 10px;
+}
+
+.rm-page-header > div.row {
+	padding: 15px 20px;
+}
+
+.rm-page-header h1 {
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-size: 2.5em;
+}
+
+.rm-page-header .rm-ruby {
+	font-size: 1.2em
+}
+
+.rm-page-header ul {
+	background-color: #f5f5f5;
+	margin-bottom: 4px;
+}
+.rm-page-header ul > li {
+	border-right: 1px solid #888;
+	box-shadow: 1px 0 0 0 #fff;
+}
+.rm-page-header ul > li:first-child {
+	/*margin-left: 16px;*/
+	/*border-left: 1px solid #888;*/
+}
+.rm-page-header ul > li:last-child {
+	/*margin-right: 16px;*/
+}
+.rm-page-header ul > li > a {
+	color: #555;
+	border-radius: 0;
+	padding: 6px 15px;
+	font-size: 90%;
+}
+.rm-page-header .rm-setting-mode {
+	text-align: right;
+	/*padding-*/
+	margin-bottom: 5px;
+	margin-right: 4px;
+	position: relative;
+}
+
+.rm-page-header .rm-setting-mode a {
+	font-size: 10px;
+}
+
+.rm-page-header ul > li.active,
+.rm-page-header ul > li:hover,
+.rm-page-header ul > li:focus {
+	background-color: #eee;
+}
+
+.rm-page-header .navbar-default .navbar-nav>.active>a {
+	color: #fff;
+	background-color: #337ab7;
+}
+.rm-page-header-operation {
+	margin-top: 15px
+}
+.rm-page-header-operation > div, .rm-page-header-operation > span, .rm-page-header-operation > button {
+	margin: 0 15px 15px 5px
+}

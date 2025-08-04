@@ -1,0 +1,67 @@
+/**
+ * frames/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.frame-name-setting {
+	display: inline-block;
+	width: auto;
+}
+.frame-header-type-btn {
+	padding: 4px 12px 5px 12px;
+}
+.frame-header-type-settings {
+	display: inline-block;
+	width: 120px;
+}
+.panel.frame-header-type-settings {
+	margin: 0;
+}
+.panel.frame-header-type-settings .panel-heading {
+	padding: 0;
+}
+
+.frame-btn {
+	margin-left: 3px;
+}
+.frame-add-plugin {
+	margin-bottom: 0px;
+}
+.frame-footer {
+	margin-top: 4px;
+	padding-top: 16px;
+	/*border-top: 1px solid #ccc;*/
+}
+
+.select-frame-language-btn {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+div.frame-public-lang-outer {
+	clear: both;
+	color: #333;
+	display: block;
+	font-weight: 400;
+	line-height: 1.42857;
+	padding: 3px 20px;
+	white-space: nowrap;
+}
+.frame-public-lang-outer > .checkbox {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.panel-none > .panel-heading,
+.panel-none > .panel-body {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.panel-none > .panel-body {
+	padding-top: 0;
+}
+.panel.panel-none {
+	box-shadow: none;
+}

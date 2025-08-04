@@ -1,0 +1,158 @@
+/**
+ * users/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.user-edit-label {
+	padding-right: 0px;
+}
+.user-edit-choice .radio-inline:first-child,
+.user-edit-choice .checkbox-inline:first-child {
+	padding-left: 0px;
+}
+
+.user-edit-choice-public .radio-inline:first-child,
+.user-edit-choice-mail .checkbox-inline:first-child {
+	padding-left: 0px;
+}
+.user-edit-choice-public,
+.user-edit-choice-mail {
+	padding-top: 6px;
+}
+
+/**
+ * アバター
+ */
+.small .user-avatar-xs {
+	height: 16px;
+	width: 16px;
+}
+.user-avatar-xs {
+	margin-right: 2px;
+	height: 20px;
+	width: 20px;
+	border-radius: 3px;
+}
+.user-edit-thumbnail {
+	margin-bottom: 10px;
+}
+.user-thumbnail img {
+	max-height: 128px;
+}
+.hidden-sm a[ng-controller="Users.controller"]{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 240px;
+}
+
+/**
+ * 会員選択
+ */
+@media (min-width: 768px) {
+	.user-selection-list {
+		width: 48.2%;
+	}
+	.user-selection-list-offset {
+		margin-left: 3.6%;
+	}
+}
+.user-selection-list {
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+	padding: 5px 10px;
+}
+.user-selection-list-group .user-select-button {
+	margin-right: 10px;
+}
+.user-selection-list-group .user-remove-button {
+	margin-left: 10px;
+}
+.pre-scrollable.user-selection-list-group {
+	max-height: 170px;
+}
+.pre-scrollable.user-selection-list-group .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.user-selection-panel-footer {
+	padding: 5px 3px 3px;
+}
+.user-selection-panel-footer .pagination {
+	margin: 0px;
+}
+
+/**
+ * 会員検索
+ */
+.user-search-index-head-margin {
+	margin-bottom: 10px;
+}
+.user-search-conditions label {
+	font-weight: normal;
+}
+.user-search-conditions-datetime label {
+	width: 60.8%;
+	text-align: left;
+}
+input.user-search-conditions-datetime-top {
+	border-bottom-left-radius: 0;
+	border-bottom: 0;
+}
+input.user-search-conditions-datetime-bottom {
+	border-top-left-radius: 0;
+}
+label.user-search-conditions-datetime-top {
+	border-bottom-right-radius: 0;
+	border-bottom: 0;
+}
+label.user-search-conditions-datetime-bottom {
+	border-top-right-radius: 0;
+}
+
+.user-search-conditions-row .col-xs-3 {
+	padding-right: 0px;
+}
+.user-search-conditions-row .radio-inline {
+	padding-left: 0px;
+	padding-right: 20px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.user-search-conditions-frame {
+	margin-bottom: 8px;
+}
+.user-search-conditions-frame div.pull-left {
+	margin-right: 32px;
+}
+.user-search-conditions-frame div.pull-left label {
+	margin-right: 4px;
+}
+.user-search-conditions-checkbox {
+	overflow: auto;
+	max-height: 240px;
+}
+.user-search-conditions-checkbox .checkbox-inline {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+/**
+ * 会員退会
+ */
+.user-cancel-disclaimer {
+	max-height: 280px;
+	overflow: auto;
+}
+.user-disclaimer-check .checkbox-inline{
+	padding-left: 0px;
+}
+.panel-danger > form > .panel-footer {
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}

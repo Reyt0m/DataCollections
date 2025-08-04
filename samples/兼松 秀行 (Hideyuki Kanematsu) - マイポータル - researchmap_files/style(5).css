@@ -1,0 +1,42 @@
+/**
+ * myportal_space_header/css/style.css
+ *
+ * @author Japan Science and Technology Agency
+ * @author National Institute of Informatics
+ * @link http://researchmap.jp researchmap Project
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://researchmap.jp/public/terms-of-service/ researchmap license
+ * @copyright Copyright 2017, researchmap Project
+ */
+
+.plugin-myportal-space-header > .panel-body {
+	padding: 0;
+}
+
+#container-header {
+	background-color: #194486;
+}
+
+#rm-myportal-header-menu > ul {
+	margin-bottom: 0;
+}
+
+#achievements-navi.navbar,
+#avatar-edit.navbar {
+	min-height: 0;
+	/*margin-bottom: 6px;*/
+}
+
+.navbar-default .navbar-nav > li.myportal-header-exists-achievment > a {
+	color: #555;
+}
+.navbar-default .navbar-nav > li.myportal-header-exists-achievment > a:hover {
+	color: #333;
+}
+
+.navbar-default .navbar-nav > li.myportal-header-not-exists-achievment > a {
+	color: #aaa;
+}
+.navbar-default .navbar-nav > li.myportal-header-not-exists-achievment > a:hover {
+	color: #777;
+}

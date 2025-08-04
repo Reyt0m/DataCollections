@@ -1,0 +1,108 @@
+/**
+ * rm_menus/css/style.css
+ *
+ * @author Japan Science and Technology Agency
+ * @author National Institute of Informatics
+ * @link http://researchmap.jp researchmap Project
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://researchmap.jp/public/terms-of-service/ researchmap license
+ * @copyright Copyright 2017, researchmap Project
+ */
+
+#container-header .plugin-rm-menus .navbar-default {
+    background: none;
+}
+
+#nc-offcanvas-left .plugin-rm-menus > .panel-body {
+    padding: 0;
+}
+
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav > .list-group {
+    margin-bottom: 0;
+}
+
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item {
+    border-left: 0;
+    border-right: 0;
+}
+
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-0 {
+    margin-left: 0;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-1 {
+    margin-left: 0;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-2 {
+    margin-left: 10px;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-3 {
+    margin-left: 20px;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-4 {
+    margin-left: 30px;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-5 {
+    margin-left: 40px;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-6 {
+    margin-left: 50px;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-7 {
+    margin-left: 60px;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-8 {
+    margin-left: 70px;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav a.list-group-item.menu-tree-9 {
+    margin-left: 80px;
+}
+
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav.rm-menus-member-menu a.list-group-item.menu-tree-1 {
+    margin-left: 10px;
+}
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav.rm-menus-member-menu div.rm-menus-community-room a.list-group-item.menu-tree-1:first-child {
+    margin-left: 0px;
+}
+/*
+#nc-offcanvas-left .plugin-rm-menus > .panel-body > nav.rm-menus-member-menu div.rm-menus-community-room a.list-group-item:last-child {
+    border-bottom: none;
+}
+*/
+
+
+.rm-menus-text {
+    display: table-cell !important;
+    width: 99% !important;
+}
+.rm-menus-text-group {
+    display: table;
+    width: 100%;
+}
+
+.rm-menus-up {
+    display: table-cell !important;
+    width: 62% !important;
+}
+
+.rm-menus-down {
+    display: table-cell !important;
+    width: 38% !important;
+}
+
+.rm-menus-btn {
+    display: table-cell !important;
+    width: 1% !important;
+}
+
+.rm-menus-h2-align{
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.rm-menus-dropdown-submenu {
+    position: relative;
+}
+
+.rm-menus-submenu .caret {
+    margin-left: 0.5rem;
+}

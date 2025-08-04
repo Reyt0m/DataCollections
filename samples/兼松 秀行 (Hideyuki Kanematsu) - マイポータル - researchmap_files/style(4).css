@@ -1,0 +1,744 @@
+/**
+ * curriculum_vitaes/css/style.css
+ *
+ * @author Japan Science and Technology Agency
+ * @author National Institute of Informatics
+ * @link http://researchmap.jp researchmap Project
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://researchmap.jp/public/terms-of-service/ researchmap license
+ * @copyright Copyright 2017, researchmap Project
+ */
+
+.rm-cv-basic-dl,
+.rm-cv-detail-dl {
+	margin-bottom: 10px;
+}
+
+.rm-cv-basic-dl dt,
+.rm-cv-detail-dl dt {
+	font-weight: normal;
+}
+
+.rm-cv-basic-dl dt:not(.text-danger),
+.rm-cv-detail-dl dt:not(.text-danger) {
+	color: #909090;
+}
+
+.rm-cv-line-breaks-dl dt,
+.rm-cv-line-break-dt {
+	float:left;
+	clear:both;
+}
+
+.rm-cv-line-breaks-2col dt:nth-child(5),
+.rm-cv-line-breaks-2col dt:nth-child(9),
+.rm-cv-line-breaks-2col dt:nth-child(13),
+.rm-cv-line-breaks-2col dt:nth-child(17) {
+	float:left;
+	clear:both;
+}
+@media (min-width: 768px) {
+	.rm-cv-detail-dl dt,
+	.rm-cv-basic-dl dt {
+		text-align: right;
+	}
+}
+/* スマホだと一列表示 */
+@media (max-width: 479px) {
+	.rm-cv-detail-dl dt,
+	.rm-cv-basic-dl dt,
+	.rm-cv-detail-dl div {
+		width: 100%;
+		margin-top: 7px;
+	}
+	.rm-cv-detail-dl dd,
+	.rm-cv-basic-dl dd,
+	.rm-cv-detail-dl div  {
+		width: 100%;
+	}
+}
+
+/** 著者一覧のおりたたみ表示 */
+.rm-cv-detail-authors-with-folding {
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.rm-cv-detail-authors-with-folding .selectize-input {
+	border: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+.rm-cv-detail-authors-with-folding li:not(:last-of-type)::after {
+	content: ", ";
+}
+.rm-cv-detail-authors-with-folding .rm-cv-author {
+	display: inline-block;
+}
+.rm-cv-detail-authors-collapsed li {
+	display:none;
+}
+.rm-cv-detail-authors-collapsed .rm-cv-detail-authors-expand-link {
+	display: inline-block;
+}
+.rm-cv-detail-authors-collapsed .rm-cv-detail-authors-collapse-link {
+	display: none;
+}
+.rm-cv-detail-authors-expanded li {
+	display: inline-block;
+}
+.rm-cv-detail-authors-expanded .rm-cv-detail-authors-expand-link {
+	display: none;
+}
+.rm-cv-detail-authors-expanded .rm-cv-detail-authors-collapse-link {
+	display: block;
+}
+
+hr.rm-cv-feed-hr {
+	margin-top: 0;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-top: 1px solid #eee;
+}
+
+.rm-cv-confirm-hr hr {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-top: 1px solid #eee;
+}
+
+hr.rm-cv-hr:not(:last-child) {
+	margin-top: 0;
+	margin-bottom: 16px;
+	border-top: 1px solid #eee;
+}
+hr.rm-cv-hr:last-child {
+	display: none;
+}
+
+.rm-cv-profile-bottom {
+	padding-bottom:10px;
+}
+
+.rm-cv-edit-list-btn {
+	font-size: 12px;
+}
+.rm-cv-edit-list-btn-group {
+	margin-left: 5px;
+}
+
+/*
+ * もっとみる footer hr
+ */
+hr.rm-cv-footer-hr {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.research_interests-body hr.rm-cv-footer-hr,
+.research_areas-body hr.rm-cv-footer-hr {
+	margin-top: 6px;
+}
+
+.rm-cv-more-btn {
+	color: #337ab7;
+	background-color: #fff;
+	border-color: #ccc;
+	border-top-width: 0;
+	border-radius: 0 0 4px 4px;
+	font-size: 12px;
+	padding: 5px 40px;
+}
+
+.rm-cv-other-affiliation-title {
+	color: #8d8d8d;
+	padding-bottom: 5px;
+}
+
+.rm-cv-header-btn,
+.rm-cv-header-link {
+	font-size: 11px;
+}
+.rm-cv-header-btn:not(:last-child) {
+	margin-right: 8px;
+}
+
+.panel-default > .panel-heading .rm-cv-header-badge {
+	background-color: #777;
+}
+.panel > .panel-heading .rm-cv-header-badge {
+	margin-top: 10px;
+}
+
+.rm-cv-panel-heading {
+	padding:0;
+}
+.rm-cv-panel-title {
+	padding: 10px 0 10px 15px;
+	font-size: 110%;
+	margin: 0;
+}
+.rm-cv-panel-btn {
+	padding: 5px 8px;
+}
+.rm-cv-panel-toggle-btn {
+	margin-top: 4px;
+	padding: 5px 14px;
+	display: block;
+}
+
+.rm-cv-description,
+.rm-cv-multi-label {
+	font-size: 90%;
+}
+.rm-cv-confirm-detail .rm-cv-description {
+	max-height: 160px;
+	overflow-y: auto;
+}
+
+.rm-btn-lg {
+	padding: 0 10px;
+}
+
+.rm-cv-list-operation-group {
+	margin-bottom: 8px;
+}
+
+.rm-cv-list-title {
+	font-size: 110%;
+}
+
+.rm-cv-list-author {
+	color: #727272;
+}
+.rm-cv-list-original-author {
+	color: #b1b1b1;
+}
+
+.rm-cv-list-thumbnail {
+	margin-left: 7px;
+	text-align: center;
+}
+.rm-cv-list-thumbnail a {
+	width: 53px;
+	display: inline-block;
+}
+.rm-cv-list-thumbnail .badge {
+	margin-top: -6px;
+	display: inline-block;
+}
+.rm-cv-list-thumbnail .badge .glyphicon {
+	font-size: 80%;
+}
+.rm-cv-list-thumbnail.rm-avatar img {
+	background-color: #fff;
+	border: none;
+	margin: auto;
+	max-height: 140px;
+}
+
+.rm-cv-list-type {
+	font-size: 80%;
+}
+.rm-cv-list-description {
+	font-size: 90%;
+}
+
+.rm-cv-item-title {
+	color: #333 !important;
+}
+
+.rm-cv-list-content-top {
+	margin-bottom: 6px;
+}
+.rm-cv-list-left {
+	display: table-cell;
+	padding: 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+.rm-cv-list-right {
+	display: table-cell;
+	padding: 8px;
+	text-align: left;
+	vertical-align: middle;
+}
+.rm-cv-list-top-title {
+	font-size: 0.86em;
+	background-color: #eee;
+	color: #777;
+	padding: 2px 4px;
+	margin: -6px 8px 12px -8px;
+	min-width: 84px;
+	line-height: 1.8em;
+	text-align: center;
+}
+
+/*
+ * リスト表示の「承認待ち」を縮小
+ */
+.rm-cv-list-label {
+	font-size: 70%;
+	margin-right: 4px;
+}
+.rm-cv-link-label {
+	margin-right: 2px;
+}
+
+.rm-cv-list-group {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.rm-cv-list-group li {
+	border-width: 1px 0 1px 0;
+	border-style: solid;
+	border-color: #eee;
+	border-collapse: collapse;
+}
+
+/* 業績リストの登録者情報、更新者情報 */
+.rm-cv-list-footer {
+	margin-top: 4px;
+}
+.rm-cv-list-creator {
+	margin-right: 24px;
+}
+.rm-cv-list-registrated {
+	margin-left: 8px;
+}
+
+/* 研究キーワードリスト */
+.rm-cv-research-interests {
+	margin: 0;
+}
+.rm-cv-research-interests li {
+	padding-right: 0;
+	padding-bottom: 5px;
+}
+/* 研究分野 */
+.rm-cv-research-areas {
+	 margin: 0;
+	 padding: 0 20px;
+ }
+
+.rm-cv-research-areas li {
+	padding-right: 0;
+	padding-bottom: 5px;
+}
+
+/* 業績詳細 */
+.rm-cv-detail-title {
+	margin: 10px 0;
+	font-size: 1.5em;
+	border-left-width: 5px;
+	padding-left: 5px;
+}
+.rm-cv-detail-subtitle {
+	margin: 5px 0 10px 45px;
+	font-size: 1.2em;
+}
+.rm-cv-detail-top-date,
+.rm-cv-detail-top-industrial-property-rights-type {
+	margin: 10px 0 2px 0;
+	font-size: 1.2em;
+}
+
+.rm-cv-detail-other-title {
+	color: #ccc;
+}
+
+.rm-cv-detail-search-title {
+	font-size: 1.3em;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+/* ID情報 */
+.selectize-input.rm-cv-identifiers {
+	margin-top: 4px;
+	margin-bottom: 0;
+	min-height: 100px;
+	max-height: 240px;
+	overflow: hidden;
+}
+.selectize-input.rm-cv-identifiers li {
+	margin-bottom: 3px;
+	margin-right: 6px;
+}
+
+.rm-cv-detail-search-header {
+	padding-left: 10px;
+}
+/* 著者欄 */
+.rm-cv-authors .selectize-input {
+	/* height:60px; */
+	/* overflow-y:scroll; */
+}
+
+.selectize-control.rm-cv-authors .selectize-input > div {
+	margin: 0 3px 3px 0;
+	padding: 1px 3px;
+	background: #efefef;
+	color: #333333;
+	border: 0 solid rgba(0, 0, 0, 0);
+}
+.rm-cv-authors .selectize-input {
+	border-radius: 0;
+}
+
+.rm-cv-author-unknown a {
+	color: #333333;
+}
+
+.rm-cv-authors .option .name {
+	display: block;
+}
+.rm-cv-authors .option .affiliation {
+	font-size: 0.8em;
+	display: block;
+	color: #a0a0a0;
+}
+.rm-cv-authors .item a {
+	color: #006ef5;
+}
+.rm-cv-authors .item.active a {
+	color: #303030;
+}
+
+#rm-form-details {
+    margin-top: 8px;
+}
+
+.rm-cv-edit-detail-add {
+    margin-bottom: 16px;
+}
+
+.rm-cv-author {
+	border-radius: 3px;
+	background-color: #efefef;
+	display: block;
+	border: 1px solid #efefef;
+	padding: 1px 7px;
+	margin: 1px 1px 1px 0;
+	font-size: 90%;
+}
+.rm-cv-author-myself {
+	font-weight: bold;
+}
+
+.rm-form .rm-cv-coauthored-relationship {
+	margin-bottom: 0;
+}
+
+/* DOI,ISBN, */
+.rm-cv-form-doi,
+.rm-cv-form-isbn {
+	width: 50%;
+}
+
+.form-horizontal .control-label.rm-cv-custom-input {
+	padding-top: 0;
+}
+
+/* 日まで入力 */
+.rm-cv-until-day {
+	padding-left: 6px;
+}
+
+.rm-cv-clearfix:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+/* 以下、追加分 */
+
+/**
+ * 表示タイプ、公開状態のヘルプ
+ */
+.rm-cv-creator-type-help,
+.rm-cv-display-help {
+	padding: 0;
+}
+.rm-cv-creator-type-help li.list-group-item {
+	padding: 0 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+}
+.rm-cv-display-help li.list-group-item-heading {
+	display: block;
+}
+.rm-cv-display-help li.list-group-item {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.rm-cv-display-help li.rm-cv-display-label {
+	padding: 8px;
+	border: 0;
+	margin-left: 40px;
+}
+.rm-cv-display-help li.rm-cv-display-background {
+	width: 32px;
+	height: 32px;
+	border: 1px solid #000;
+	float: left;
+	margin-left: 8px;
+}
+
+/* ダウンロード */
+.rm-cv-dataset-outer {
+	text-align: right;
+}
+
+.rm-cv-dataset {
+	text-align: center;
+}
+
+.rm-cv-dataset div.rm-cv-dataset-type {
+	font-size: 70%;
+}
+.rm-cv-dataset div.rm-cv-dataset-type:before {
+	content: "(";
+}
+.rm-cv-dataset div.rm-cv-dataset-type:after {
+	content: ")";
+}
+
+/*.rm-cv-dataset-thumbnail {
+	border: 1px solid #337ab7;
+}*/
+.rm-cv-dataset-thumbnail-border {
+	border: 1px solid #eee;
+}
+
+.rm-cv-amazon-thumbnail {
+	border: 2px solid #eee;
+}
+
+.rm-cv-edit-dataset > a,
+.rm-cv-edit-dataset > span {
+	display: inline-block;
+	max-width: 300px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-right: 16px;
+}
+.rm-cv-edit-dataset > .rm-cv-dataset-delete-checkbox {
+	display: inline-block;
+}
+
+/* テキストで表示 */
+.rm-cv-text-display-link {
+	margin-right: 12px;
+}
+
+/**
+ * 業績種別の並び替え
+ */
+.rm-cv-edit-sequence-li {
+	padding: 4px 8px;
+}
+.rm-cv-edit-sequence-li:not(:last-child) {
+	margin-bottom: 6px;
+}
+.rm-cv-edit-sequence .btn,
+.rm-cv-edit-display .btn {
+	margin-right: 8px;
+}
+.rm-cv-edit-display {
+	margin-right: 8px;
+}
+.rm-cv-edit-display .btn {
+	width: 74px;
+}
+
+/**
+ * 業績リスト 編集
+ */
+.rm-cv-edit-list-group {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.rm-cv-edit-list-group > li {
+	display: table;
+	border-width: 1px solid #ddd;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: -1px;
+}
+.rm-cv-edit-list-group li:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.rm-cv-edit-list-group .rm-cv-list-content {
+	display: table-cell;
+	border-left: 1px solid #eee;
+	padding: 6px 8px 8px 8px;
+	width: 100%;
+	vertical-align: top;
+}
+.rm-cv-edit-list-left {
+	width: 6em;
+}
+
+.rm-cv-edit-major-achievement-btn button {
+	margin-right: 16px;
+	min-width: 6em;
+}
+.rm-cv-edit-list-feed-btn {
+	margin-bottom: 32px;
+}
+.rm-cv-edit-list-left-btn:not(:last-child) {
+	margin-bottom: 8px;
+}
+.rm-cv-edit-list-header {
+	margin-bottom: 16px;
+}
+
+.rm-cv-edit-list-operation-item {
+	display: inline-block;
+}
+.rm-cv-edit-list-operation-item:not(:last-child) {
+	margin-right: 16px;
+}
+.rm-cv-edit-list-operation-group {
+	margin-bottom: 8px;
+}
+
+.rm-cv-edit-list-check-left {
+	padding: 0 8px;
+	border-right: 1px solid #eee;
+}
+.rm-cv-edit-all-checked {
+	padding: 0 10px;
+	margin-bottom: 8px;
+}
+
+/**
+ * 業績リスト 承認
+ */
+.rm-cv-approval-list-group li:not(:last-child) {
+	margin-bottom: 0;
+}
+
+.rm-cv-approval-list-left {
+	width: 2em;
+	padding: 6px;
+	vertical-align: top;
+	/*text-align: left;*/
+}
+.rm-cv-approval-list-left:not(:first-child) {
+	border-left: 1px solid #eee;
+}
+.rm-cv-approval-list-left .rm-cv-list-top-title {
+	margin: -6px -8px 4px -6px;
+}
+.rm-cv-approval-radio input.rm-form-legend-input {
+	margin: 8px 4px 8px 0;
+}
+.form-horizontal .form-group.rm-cv-approval-radio {
+	margin: 0;
+}
+/**
+ * 基本項目編集
+ */
+.rm-cv-profile-edit-panel-body .m17n-language-switch ul.nav {
+	float: none;
+}
+select.rm-cv-topic-number {
+	margin-right: 16px;
+}
+.rm-cv-auto-save-research-experience-checkbox {
+	margin-top: 8px;
+}
+.rm-cv-edit-add-btn {
+	margin-top: 8px;
+}
+
+.rm-cv-profile-edit-form-half {
+	width: 50%;
+}
+.rm-form .rm-form-user-name {
+	margin-bottom: 16px;
+}
+
+.rm-form-general-affilation-inline-radio span > input {
+	margin-left: 20px;
+}
+
+.rm-form-general-affilation-inline-radio span > label {
+	margin-right: 4px;
+}
+
+.rm-form .rm-form-affilation-job .form-group {
+	margin-bottom: 8px;
+}
+.rm-form .rm-form-affilation-job .form-group input.rm-form-legend-input {
+	margin-top: 0;
+}
+
+.rm-cv-allow-export-to-institution-checkbox {
+	margin-bottom: 12px;
+}
+
+.rm-form-degree-group {
+	margin-bottom: 16px;
+}
+
+.rm-cv-orcid-edit-mark {
+	margin-right: 8px;
+}
+
+.rm-cv-approval-confirm-detail-title-arrow {
+	vertical-align: middle;
+}
+
+.cv-approval-confirm-text-overflow {
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.rm-cv-edit-error {
+	padding: 4px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 8px;
+}
+
+/**
+ * 業績リスト 並び替え
+ */
+.rm-cv-list-sort-order-group {
+	margin-bottom: 8px;
+}
+.rm-cv-sort-order-exist-approval-waiting {
+	margin-bottom: 12px;
+}
+
+.rm-cv-feeds-how-update-radio {
+	padding:5px;
+}
+
+.rm-cv-feeds-add-method-popover {
+	margin: 0;
+	padding-left: 10px;
+}
+
+/**
+ * selectize
+ */
+.selectize-input>div.active a {
+	color: #fff;
+}
+
+/**
+ * 競争的資金の業績とりまとめ
+ */
+#rm-reseach-project-achievements {
+	margin-top: 20px;
+}
+#rm-reseach-project-achievements h3 {
+	margin-top: 0;
+}

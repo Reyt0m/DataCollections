@@ -1,0 +1,257 @@
+/**
+ * @fileoverview RmMenus Javascript
+ * @author nc@withone.co.jp (WithOne Company Limited.)
+ */
+
+
+/**
+ * PagesLayoutController Javascript
+ *
+ * @param {string} Controller name
+ * @param {function($scope)} Controller
+ */
+NetCommonsApp.controller('RmMenusController',
+    ['$scope', function($scope) {
+
+      $scope.myPortalMenusShow = true;
+    }]
+);
+
+
+/**
+ * PagesEditController Javascript
+ *
+ * @param {string} Controller name
+ * @param {function($scope, $http)} Controller
+ */
+NetCommonsApp.controller('RmMenusEditController',
+    ['$scope', 'NetCommonsModal', 'NC3_URL', function($scope, NetCommonsModal, NC3_URL) {
+
+      /**
+       * ページデータ保持用
+       */
+      $scope.pages = {};
+
+      /**
+       * Initialize
+       *
+       * @param {object} pages
+       * @param {object} treeList
+       * @param {object} roomPages
+       * @param {string} frameId
+       * @param {object} childRooms
+       * @return {void}
+       */
+      $scope.initialize = function(pages, treeList, roomPages, frameId, childRooms) {
+        $scope.pages = pages;
+        $scope.treeList = treeList;
+        $scope.roomPages = roomPages;
+        $scope.frameId = frameId;
+        $scope.childRooms = childRooms;
+      };
+
+      /**
+       * ページ新規追加
+       *
+       * @return {void}
+       */
+      $scope.addPage = function() {
+        $scope.roomPages.push({
+          Page: {
+            id: '',
+            permalink: ''
+          },
+          PagesLanguage: {
+            id: '',
+            name: ''
+          }
+        });
+      };
+
+      /**
+       * ページ削除
+       *
+       * @param {int} index
+       * @return {void}
+       */
+      $scope.deletePage = function(index) {
+        $scope.roomPages.splice(index, 1);
+      };
+
+      /**
+       * ページ移動
+       *
+       * @param {string} type
+       * @param {int} index
+       * @return {void}
+       */
+      $scope.move = function(type, index, target) {
+        var dest = (type === 'up') ? index - 1 : index + 1;
+        /*
+        if (angular.isUndefined($scope.roomPages[dest])) {
+          return false;
+        }
+
+        var destCategory = angular.copy($scope.roomPages[dest]);
+        var targetCategory = angular.copy($scope.roomPages[index]);
+        $scope.roomPages[index] = destCategory;
+        $scope.roomPages[dest] = targetCategory;
+        */
+        if (angular.isUndefined(target[dest])) {
+          return false;
+        }
+
+        var destCategory = angular.copy(target[dest]);
+        var targetCategory = angular.copy(target[index]);
+        target[index] = destCategory;
+        target[dest] = targetCategory;
+      };
+
+      /**
+       * パーマリンク編集ダイアログ表示
+       *
+       * @param {object} roomPage
+       * @return {void}
+       */
+      $scope.showPermalinkDialog = function(roomPage) {
+        //var myPortalId = $scope.treeList[0];
+        //var roomId = $scope.pages[myPortalId]['Page']['room_id'];
+        NetCommonsModal.show(
+            $scope, 'RmMenusPermalinkController',
+            NC3_URL + '/rm_menus/rm_menus_edit/rm_menus_modal/' +
+                    roomPage['Page']['room_id'] + '/' + roomPage['Page']['id'] +
+                    '?' + Date.now(), //キャッシュを取らないため
+            {backdrop: 'static', size: 'md'}
+        );
+      };
+    }]
+);
+
+
+/**
+ * PermalinkEditController Javascript
+ *
+ * @param {string} Controller name
+ * @param {function($scope, $uibModalInstance)} Controller
+ */
+NetCommonsApp.controller('RmMenusPermalinkController',
+    ['$scope', '$http', '$q', 'NC3_URL', '$uibModalInstance',
+      function($scope, $http, $q, NC3_URL, $uibModalInstance) {
+        $scope.errMsg = '';
+        /**
+         * Initialize
+         */
+        $scope.initialize = function(roomPages) {
+          $scope.roomPages = roomPages;
+        };
+
+        /**
+         * パーマリンク送信
+         *
+         * @return {void}
+         */
+        $scope.save = function() {
+          var deferred = $q.defer();
+          var promise = deferred.promise;
+          $scope.$parent.sending = true;
+          $http.get(NC3_URL + '/net_commons/net_commons/csrfToken.json')
+              .then(function(response) {
+                    //POSTリクエスト
+                    var token = response.data;
+                    var formElement = $('#PageRmMenusModalForm')[0];
+
+                    var postData = {
+                      Page: {
+                        id: $scope.roomPages['Page']['id'],
+                        room_id: $scope.roomPages['Page']['room_id'],
+                        slug: $scope.roomPages['Page']['slug']
+                      },
+                      _NetCommonsTime: {
+                        convert_fields:
+                        formElement['elements']['_NetCommonsTimeConvertFields'].value,
+                        user_timezone:
+                        formElement['elements']['_NetCommonsTimeUserTimezone'].value
+                      },
+                      _AntiArrayAttack: {
+                        multiFields: $('#_AntiArrayAttackMultiFields').value,
+                        unlockFields: $('#_AntiArrayAttackUnlockFields').value
+                      },
+                      _Token: {
+                        key: token.data._Token.key,
+                        fields: formElement['elements']['data[_Token][fields]'].value,
+                        unlocked: formElement['elements']['data[_Token][unlocked]'].value
+                      }
+                    };
+                    if (formElement['elements']['data[_Token][debug]'] != undefined) {
+                      postData._Token.debug =
+                          formElement['elements']['data[_Token][debug]'].value;
+                    }
+                    $http.post(
+                        NC3_URL + '/rm_menus/rm_menus_edit/rm_menus_modal/' +
+                          $scope.roomPages['Page']['room_id'] + '/' +
+                          $scope.roomPages['Page']['id'],
+                        $.param({_method: 'POST', data: postData}),
+                        {
+                          cache: false,
+                          headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+                        }
+                    ).then(
+                        function(response) {
+                          //success condition
+                          $scope.$parent.sending = false;
+                          if (response.data.class === 'success') {
+                            $uibModalInstance.close();
+                            //メッセージ出力
+                            $scope.flashMessage(
+                                response.data.name,
+                                response.data.class,
+                                response.data.interval
+                            );
+                            //メニューのhrefを更新
+                            var changedUrl = response.data.changedUrl;
+                            var targetId = '#MenuFramesPageMajor' +
+                                    $scope.roomPages['Page']['id'];
+                            $(targetId)[0].href = changedUrl;
+                          }
+                        },
+                        function(response) {
+                          //error condition
+                          $scope.$parent.sending = false;
+                          // slug、permalinkについてのバリデーションエラーメッセージの重複を防ぐための処理
+                          if (response.data.error.validationErrors.slug == undefined) {
+                            $scope.errMsg = response.data.error.validationErrors.permalink[0];
+                          } else {
+                            $scope.errMsg = response.data.error.validationErrors.slug[0];
+                          }
+                      });
+                  },
+                  function(response) {
+                    //Token error condition
+                    var data = response.data;
+                    var status = response.status;
+                    deferred.reject(data, status);
+                  });
+          promise.success = function(fn) {
+            promise.then(fn);
+            $scope.$parent.sending = false;
+            return promise;
+          };
+          promise.error = function(fn) {
+            promise.then(null, fn);
+            $scope.$parent.sending = false;
+            return promise;
+          };
+        };
+
+        /**
+         * キャンセル処理
+         *
+         * @return {void}
+         */
+        $scope.cancel = function() {
+          $uibModalInstance.close();
+          $scope.$parent.sending = false;
+        };
+
+      }]
+);

@@ -1,0 +1,11 @@
+/**
+ * users/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.rm-user-popup.rm-cv-card li {
+	width: 278px;
+}

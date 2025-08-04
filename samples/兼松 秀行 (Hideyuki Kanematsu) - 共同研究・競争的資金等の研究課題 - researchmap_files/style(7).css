@@ -1,0 +1,91 @@
+/**
+ * RelatedUsers CSS
+ *
+ * @author Japan Science and Technology Agency
+ * @author National Institute of Informatics
+ * @link http://researchmap.jp researchmap Project
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://researchmap.jp/public/terms-of-service/ researchmap license
+ * @copyright Copyright 2017, researchmap Project
+ */
+.rm-related-user-overflow {
+	overflow: visible !important;
+}
+
+.rm-related-users-vertical-align-top {
+	vertical-align: top;
+}
+
+.rm-related-users-warning {
+	background-color: #f0ad4e;
+}
+
+.rm-related-users-waiting > .rm-cv-card-outer {
+	background-color: #d6d8d9;
+}
+
+.rm-related-users-card-label {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: #ebebeb #bdbdbd #bdbdbd #bdbdbd;
+	font-size: 1em;
+	padding-left: 5px;
+	padding-bottom: 4px;
+}
+
+.rm-related-users-card-date {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: #ebebeb #bdbdbd #bdbdbd #bdbdbd;
+	padding: 5px;
+}
+
+.rm-related-users-card-footer {
+	background-color: #f5f5f5;
+}
+
+.rm-related-users-card-footer > div {
+	margin: 5px;
+}
+
+.rm-related-users-notice-ul {
+	width: 150px;
+	min-width: 150px;
+	color: black;
+}
+
+.rm-related-users-notice-ul > li {
+	width: 148px;
+	margin: 0;
+	border: none;
+}
+
+.rm-related-users-notice-ul li:hover {
+	background-color: #f5f5f5;
+}
+
+.rm-related-users-notice-button {
+	background-color: transparent;
+}
+
+.rm-related-users-notice-button:active {
+	box-shadow: none;
+}
+
+.rm-related-users-header-margin {
+	margin-right: 20px;
+}
+
+
+/*マイポータルスペースへッダーの共著、フォローボタン。first-child,last-childに拠らず角を丸める*/
+.rm-related-users-myportal-left-radius {
+	border-radius: 4px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+.rm-related-users-myportal-right-radius {
+	border-radius: 4px !important;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}

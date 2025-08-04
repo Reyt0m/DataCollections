@@ -1,0 +1,93 @@
+/**
+ * @fileoverview Coauthors Javascript
+ * @author nc@withone.co.jp (WithOne Company Limited.)
+ */
+
+NetCommonsApp.controller('Coauthors',
+    ['$scope', '$http', 'NC3_URL', function($scope, $http, NC3_URL) {
+
+      /**
+       * coauthors
+       *
+       * @type {array}
+       */
+      $scope.coauthors = [];
+      /**
+       * coauthorsCount
+       *
+       * @type {number}
+       */
+      $scope.coauthorsCount = null;
+      /**
+       * limit
+       *
+       * @type {number}
+       */
+      $scope.limit = null;
+      /**
+       * offset
+       *
+       * @type {number}
+       */
+      $scope.offset = null;
+      /**
+       * search_after
+       *
+       * @type {string}
+       */
+      $scope.searchAfter = [];
+      /**
+       * もっとみる押下時url
+       *
+       * @type {string}
+       */
+      $scope.url = null;
+
+      /**
+       * init
+       *
+       * @return {void}
+       */
+      $scope.init = function(url, coauthors, total, limit, searchAfter) {
+        $scope.coauthors = coauthors;
+        $scope.coauthorCount = total;
+        $scope.limit = limit;
+        $scope.url = url;
+        if (!$scope.offset) {
+            $scope.offset = limit;
+        }
+        if (searchAfter) {
+            $scope.searchAfter = searchAfter;
+        }
+      };
+
+      /**
+       * more
+       *
+       * @return {array}
+       */
+      $scope.more = function() {
+        $http.get(
+            NC3_URL + $scope.url +
+            '?search_after[0]=' + $scope.searchAfter[0] +
+            '&search_after[1]=' + $scope.searchAfter[1] +
+            '&search_after[2]=' + $scope.searchAfter[2]
+        ).then(
+            function(response) {
+              var retData = response.data;
+              $scope.searchAfter = retData.search_after;
+              for (var key in retData.coauthors) {
+                if (isNaN(key)) {
+                  continue;
+                }
+                $scope.coauthors.push(
+                    retData.coauthors[key]
+                );
+                $scope.offset++;
+              }
+            }
+        );
+      };
+
+    }]
+);

@@ -1,0 +1,337 @@
+/**
+ * @fileoverview Users Javascript
+ * @author ohno.tomoyuki@ricksoft.jp (Tomoyuki OHNO)
+ */
+
+
+/**
+ * SelectUser factory
+ *
+ * #### 結果サンプル
+ *
+ * $modal.open(options).result.then(function(result) {}, function() {})
+ * resultの中身のサンプル
+ *   {
+ *     rm_user_id: "2",
+ *     handlename: "編集長ユーザ",
+ *     link: "/users/users/view/2",　※使用しない
+ *     avatar: "/users/users/download/2/avatar/thumb",
+ *   }
+ *
+ * @link https://angular-ui.github.io/bootstrap/#/modal
+ */
+NetCommonsApp.factory('SelectUser',
+    ['NetCommonsModal', 'NC3_URL', function(NetCommonsModal, NC3_URL) {
+      return function($scope, userId, roomId, selectors) {
+
+        return NetCommonsModal.show(
+        $scope, 'User.select',
+        NC3_URL + '/user_searches/modal/select/' + Math.random() + '?room_id=' + roomId,
+        {
+          backdrop: 'static',
+          size: 'lg',
+          resolve: {
+            options: {
+              selectors: selectors,
+              roomId: roomId
+            }
+          }
+        }
+        );
+      }}]
+);
+
+
+/**
+ * User search condtion modal controller
+ */
+NetCommonsApp.controller('User.select',
+    ['$scope', '$http', '$q', '$uibModalInstance', 'options', 'NC3_URL',
+     function($scope, $http, $q, $uibModalInstance, options, NC3_URL) {
+
+       /**
+        * ルームIDを保持する変数
+        */
+       $scope.roomId = options['roomId'];
+
+       /**
+        * 検索URL
+        */
+       $scope.searchUrl =
+           NC3_URL + '/user_searches/modal/search/' + Math.random();
+
+       /**
+        * 言語
+        */
+       $scope.lang = '';
+
+       /**
+        * 検索条件
+        */
+       $scope.cond = {};
+
+       /**
+        * 詳細検索の状態を保持する変数
+        */
+       $scope.showAdvancedSearch = false;
+
+       /**
+        * 検索したかどうかのフラグを保持する変数
+        */
+       $scope.searched = false;
+
+       /**
+        * 検索でエラーかどうかを保持する変数
+        */
+       $scope.searchError = false;
+
+       /**
+        * 検索でエラーが発生した際の理由を保持する変数
+        */
+       $scope.searchErrReason = '';
+
+       /**
+        * ページネーションを保持する変数
+        */
+       $scope.paginator = null;
+
+       /**
+        * 選択したユーザを保持する配列
+        */
+      if (!angular.isArray(options['selectors'])) {
+        $scope.selectors = [];
+      } else {
+       $scope.selectors = options['selectors'];
+      }
+
+       /**
+        * Modal外で選択されたユーザのRmUserIdを保持する配列
+        */
+       $scope.selectorRmUserIds = [];
+
+       /**
+        * ユーザーリスト（検索結果）
+        */
+       $scope.searchResults = [];
+
+       /**
+        * チェックボックスの状態
+        */
+       $scope.searchResultsChecked = [];
+
+       /**
+        * 初期処理
+        *
+        * @return {void}
+        */
+       $scope.initialize = function() {
+         clearForm();
+
+         // Modal外で選択されたユーザーのrm_user_idを取得する
+         var rmUserIds = [];
+         angular.forEach($scope.selectors, function(value) {
+           this.push(value.rm_user_id);
+         },rmUserIds);
+
+         $scope.selectorRmUserIds = rmUserIds;
+       };
+
+
+       /**
+        * 既に追加されているユーザーか確認する
+        *
+        * @return {boolean}
+        */
+       $scope.chkAddedRmUserId = function(rmUserId) {
+
+         if ($scope.selectorRmUserIds.indexOf(rmUserId) > -1) {
+           return true;
+         }
+
+         return false;
+       };
+
+
+       /**
+        * フォームをクリアする
+        */
+       $scope.clearForm = function() {
+         clearForm();
+       };
+
+       /**
+        * フォームをクリアする
+        *
+        * @return {void}
+        */
+       var clearForm = function() {
+         $scope.cond = {
+           'q': '',
+           'name': '',
+           'affiliation': '',
+           'section': '',
+           'job': '',
+           'keyword': '',
+           'last_modified': '',
+           'page': 1
+         };
+       };
+
+       /**
+        * 詳細検索の切り替え
+        *
+        * @return {void}
+        */
+       $scope.toggleAdvancedSearch = function() {
+         if (! $scope.showAdvancedSearch) {
+           $scope.showAdvancedSearch = true;
+         } else {
+           $scope.showAdvancedSearch = false;
+         }
+       };
+
+       /**
+        * 次ページ遷移処理
+        *
+        * @return {boolean}
+        */
+       $scope.more = function() {
+         if (! $scope.paginator.nextPage) {
+           return false;
+         }
+
+         $scope.cond.page = $scope.paginator.page + 1;
+         searchUsers($scope.cond);
+       };
+
+       /**
+        * 検索処理
+        *
+        * @return {void}
+        */
+       $scope.search = function($event) {
+         if ($event && $event.keyCode !== 13) {
+           return;
+         }
+
+         searchUsers();
+       };
+
+       /**
+        * 決定処理＆ダイアログ閉じる
+        *
+        * @return {void}
+        */
+       $scope.save = function() {
+         angular.forEach($scope.searchResultsChecked, function(value, key) {
+           var result = this.searchResults[key]._source.researchers_only;
+           this.selectors.push({
+             id: this.searchResults[key].ncUserId,
+             rm_user_id: result.rm_user_id,
+             handlename: result.name_text[$scope.lang][0],
+             avatar: NC3_URL + '/users/users/download/' +
+                        this.searchResults[key].ncUserId + '/avatar/thumb',
+             link: '' // 未使用
+
+           });
+         }, $scope);
+
+         $uibModalInstance.close($scope.selectors);
+       };
+
+
+       /**
+        * キャンセル処理＆ダイアログ閉じる
+        *
+        * @return {void}
+        */
+       $scope.cancel = function() {
+         $uibModalInstance.dismiss('cancel');
+       };
+
+       var chkCondBlank = function() {
+         if (
+         ! $scope.cond.q &&
+         ! $scope.cond.name &&
+         ! $scope.cond.affiliation &&
+         ! $scope.cond.section &&
+         ! $scope.cond.keyword &&
+         ! $scope.cond.last_modified &&
+         ! $scope.cond.job
+         ) {
+           $scope.cond = {};
+           $scope.paginator = {};
+           $scope.lang = '';
+           $scope.searched = true;
+           $scope.searchError = true;
+           $scope.searchErrorReason = 'errNoInput';
+           $scope.searchResults = [];
+           return false;
+         }
+
+         return true;
+       };
+
+       /**
+        * ユーザ検索処理関数
+        *
+        * @return {void}
+        */
+       var searchUsers = function() {
+         // フォームが空かチェックする
+         if (! chkCondBlank()) {
+           return;
+         }
+         var searchUrl = $scope.searchUrl;
+
+         var options = {
+           cache: false
+         };
+
+         var cond = $scope.cond;
+
+         // 不要な条件を削除する
+         angular.forEach(
+             ['q', 'name', 'affiliation', 'section', 'job', 'keyword', 'last_modified'],
+             function(value) {
+           if (cond[value] === '') {
+             delete(cond[value]);
+           }
+         }, $scope);
+
+         options.params = cond;
+         options['params']['room_id'] = $scope.roomId;
+         $http.get(searchUrl, options)
+         .then(function(response) {
+           // 成功時の処理
+           var data = response.data;
+           $scope.paginator = data.paginator;
+           $scope.lang = data.lang;
+           $scope.searched = true;
+           if (angular.isUndefined(data.paginator) || data.paginator.count <= 0) {
+             // 検索結果が無い場合
+             $scope.searchError = true;
+             $scope.searchErrorReason = 'errNotFound';
+           } else {
+             // 検索結果がある場合
+             $scope.searchError = false;
+             $scope.searchErrorReason = '';
+             if ($scope.cond.page === 1) {
+               $scope.searchResults = data.values;
+             } else {
+               Array.prototype.push.apply($scope.searchResults, data.values);
+             }
+           }
+         },
+         function(response) {
+           // 失敗時の処理
+           $scope.cond = {};
+           $scope.paginator = {};
+           $scope.lang = '';
+           $scope.searched = true;
+           $scope.searchError = true;
+           $scope.searchErrorReason = 'errOther';
+           $scope.searchResults = [];
+         });
+       };
+     }]);

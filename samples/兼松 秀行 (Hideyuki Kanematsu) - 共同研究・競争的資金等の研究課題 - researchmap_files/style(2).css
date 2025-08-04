@@ -1,0 +1,68 @@
+/**
+ * pages/css/style.css
+ *
+ * @author Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://www.netcommons.org/license.txt NetCommons License
+ */
+
+.pages-tree {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.pages-move {
+	margin-right: 15px;
+}
+
+.page-edit-layout {
+	margin: 8px;
+	padding: 2px;
+}
+
+.pages-edit-index td {
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+}
+
+.pages-edit-index td > div {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.page-edit-index-page-name {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 240px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.page-move-radio .radio-inline {
+	padding-left: 0px;
+}
+
+.form-inline.page-move-radio {
+	display: inline-block;
+}
+
+.small.block-style-label {
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.page-tree-room,
+.page-tree-node-page,
+.page-tree-leaf-page {
+	padding-left: 4px;
+}
+.page-tree-room {
+	border-left: 3px #659ada solid;
+}
+.page-tree-node-page,
+.page-tree-leaf-page {
+	border-left: 3px #aca899 solid;
+}
+.page-table-responsive {
+	overflow: auto;
+}

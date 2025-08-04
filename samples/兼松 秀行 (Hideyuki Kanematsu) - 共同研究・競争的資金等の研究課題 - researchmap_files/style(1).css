@@ -1,0 +1,757 @@
+/**
+ * rm_net_commons/css/style.css
+ *
+ * @author Japan Science and Technology Agency
+ * @author National Institute of Informatics
+ * @link http://researchmap.jp researchmap Project
+ * @link http://www.netcommons.org NetCommons Project
+ * @license http://researchmap.jp/public/terms-of-service/ researchmap license
+ * @copyright Copyright 2017, researchmap Project
+ */
+
+/**
+ * 共通
+ */
+body{
+	padding-top: 49px;
+}
+
+a {
+	text-decoration: underline;
+}
+.nav a, a.btn, .dropdown-menu a {
+	text-decoration: none;
+}
+
+.list-group-item:first-child {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.panel {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	/*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);*/
+}
+.panel:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+#nc-container .rm-main-row {
+	margin: 0;
+	border-width: 0 1px 0 1px;
+	border-style: solid;
+	border-color: #ddd;
+}
+#container-header {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ddd;
+}
+
+#container-main {
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #ddd;
+	border-collapse: collapse;
+}
+
+#nc-offcanvas-left {
+	padding-left: 0;
+	padding-right: 0;
+	border-width: 0 1px 0 0;
+	border-style: solid;
+	border-color: #ddd;
+	border-collapse: collapse;
+}
+#nc-offcanvas-left .panel-default {
+	border: 0;
+}
+
+/**
+ * 共通ヘッダーメニュー
+ */
+#nc-system-header > .navbar-default {
+	background-color: #fff;
+}
+
+@media (min-width: 768px) {
+	#nc-system-header-navbar .navbar-nav > li > a,
+	#nc-system-header-navbar .navbar-nav > li > div {
+		padding: 12px 13px;
+	}
+	#nc-system-header-navbar .navbar-nav > li.hidden-sm a[ng-controller="Users.controller"]{
+		max-width: 192px;
+	}
+
+}
+@media (max-width: 767px) {
+	#nc-system-header .navbar-header > .navbar-toggle {
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+	#nc-system-header-navbar .navbar-nav > li > div {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		line-height: 20px;
+	}
+}
+
+#nc-system-header .navbar-nav > li > a.btn {
+	border-radius: 0;
+	text-align: left;
+}
+
+#nc-system-header .navbar-default .navbar-nav > li > a {
+	color: #333;
+}
+#nc-system-header .navbar-default .navbar-nav > li > a:focus,
+#nc-system-header .navbar-default .navbar-nav > li > a:hover {
+	color: #777;
+}
+
+img.rm-header-search {
+	width: 16px;
+	height: 16px;
+}
+#nc-system-header-navbar .input-group-sm > .input-group-addon {
+	padding: 4px 8px;
+}
+
+@media (max-width: 360px) {
+	#nc-system-header .offcanvas-toggle,
+	#nc-system-header .navbar-toggle {
+		padding: 4px 6px;
+	}
+	#nc-system-header .offcanvas-toggle .icon-bar,
+	#nc-system-header .navbar-toggle .icon-bar {
+		height: 2px;
+		width: 12px;
+	}
+	#nc-system-header .offcanvas-toggle .icon-bar + .icon-bar,
+	#nc-system-header .navbar-toggle .icon-bar + .icon-bar {
+		margin-top: 3px;
+	}
+	#nc-system-header .offcanvas-toggle,
+	#nc-system-header .navbar-header .navbar-toggle {
+		margin-top: 10px;
+	}
+}
+
+/**
+ * 共通設定、編集用メニュー
+ */
+@media (max-width: 767px) {
+	.rm-setting-menu > .dropdown-menu > li > a {
+		padding: 4px 32px;
+	}
+	.rm-setting-menu > .dropdown-menu > li > a > .glyphicon {
+		margin-left: -18px;
+	}
+	.rm-setting-menu > .dropdown-menu > li > a > .user-avatar-xs {
+		margin-left: -18px;
+	}
+	.navbar-nav .rm-setting-menu.open .dropdown-menu .dropdown-header,
+	.navbar-nav .rm-setting-menu.open .dropdown-menu > li > a {
+		padding-left: 33px;
+	}
+}
+@media (min-width: 768px) {
+	.rm-setting-menu > .dropdown-menu > li > a {
+		padding: 4px 28px;
+	}
+	.rm-setting-menu > .dropdown-menu > li > a > .glyphicon {
+		margin-left: -18px;
+	}
+	.rm-setting-menu > .dropdown-menu > li > a > .user-avatar-xs {
+		margin-left: -18px;
+	}
+}
+
+/**
+ * 共通フッターメニュー
+ */
+#nc-system-footer {
+	margin-top: 0;
+	padding: 8px;
+	background-color: #f6f6f6;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #ddd;
+}
+#nc-system-footer .copyright {
+	text-align: left;
+	padding-left: 16px;
+	padding-right: 16px;
+	height: 38px;
+	line-height: 38px;
+}
+#nc-system-footer .rm-privacy-and-terms {
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+}
+#nc-system-footer .rm-privacy-and-terms .rm-pause {
+	border-right: 1px solid #ccc;
+}
+#nc-system-footer .rm-privacy-and-terms a,
+#nc-system-footer .rm-privacy-and-terms span:not(.rm-pause) {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#nc-system-footer .rm-privacy-and-terms a:last-child {
+	margin-left: 4px;
+}
+
+/**
+ * メニュープラグイン
+ */
+.frame.panel-none.plugin-menus:first-child > .panel-body {
+	padding-top: 0;
+}
+
+.rm-frame-heading {
+	padding:0;
+}
+.rm-frame-title {
+	padding: 10px 0 10px 15px;
+	font-size: 100%;
+	margin: 0;
+}
+.rm-frame-header-btn {
+	padding: 5px 8px;
+}
+.rm-frame-toggle-btn {
+	margin-top: 4px;
+	padding: 4px 8px;
+    display: block;
+}
+
+/* TODO: 要整理(ここから) */
+/* 本人、所属機関事務担当者、代理人、機械(AI)配色 */
+.rm-cv-type-myself, ul li.rm-cv-type-myself {
+	border-left: 3px solid #f0ad4e;
+}
+.rm-cv-type-coauthor, ul li.rm-cv-type-coauthor {
+	border-left: 3px solid #e888ec;
+}
+.rm-cv-type-assistant, ul li.rm-cv-type-assistant {
+	border-left: 3px solid #4cae5a;
+}
+.rm-cv-type-institution, ul li.rm-cv-type-institution {
+	border-left: 3px solid #428bca;
+}
+.rm-cv-type-ai, ul li.rm-cv-type-ai {
+	border-left: 3px solid #d9534f;
+}
+ul li.rm-cv-type-ai .rm-cv-list-content,
+ul li.rm-cv-type-ai a.rm-cv-list-title,
+ul li.rm-cv-type-ai .rm-cv-list-author {
+	color: #aaaaaa;
+}
+ul li.rm-cv-type-ai a.rm-cv-list-title:hover,
+ul li.rm-cv-type-ai a.rm-cv-list-title:focus {
+	color: #4f87c4;
+}
+
+.rm-cv-type-system, ul li.rm-cv-type-system {
+	border-left: 3px solid #778899;
+}
+.rm-cv-type-trusted-institution, ul li.rm-cv-type-trusted-institution {
+	border-left: 3px solid #428bca;
+}
+
+.rm-cv-type-bg-myself {
+	background-color: #f0ad4e;
+}
+.rm-cv-type-bg-coauthor {
+	background-color: #e888ec;
+}
+.rm-cv-type-bg-assistant {
+	background-color: #4cae5a;
+}
+.rm-cv-type-bg-institution {
+	background-color: #428bca;
+}
+.rm-cv-type-bg-ai {
+	background-color: #d9534f;
+}
+
+.rm-cv-label-type,
+.rm-cv-label-display,
+.rm-cv-label-status {
+	margin-right: 6px;
+	font-size: 70%;
+}
+
+.rm-cv-label-type {
+	color: #333;
+	border: 1px #ccc solid;
+	font-weight: normal;
+}
+.rm-cv-type-myself {
+	border-color: #f0ad4e;
+}
+.rm-cv-type-coauthor {
+	border-color: #e888ec;
+}
+.rm-cv-type-assistant {
+	border-color: #4cae5a;
+}
+.rm-cv-type-institution {
+	border-color: #428bca;
+}
+.rm-cv-type-ai {
+	border-color: #d9534f;
+}
+.rm-cv-type-system {
+	border-color: #778899;
+}
+.rm-cv-type-trusted-institution {
+	border-color: #428bca;
+}
+
+/* 公開状態ラベル */
+.rm-cv-label-public-state,
+.rm-cv-label-display {
+	color: #333;
+	border: 1px #ccc solid;
+	font-weight: normal;
+}
+
+.rm-cv-closed {
+	background-color: #e1e1e1;
+}
+.rm-cv-researchers-only {
+	background-color: #f4f4f4;
+}
+/* TODO: 要整理(ここまで) */
+
+/* 検索結果等、研究者表示 */
+.rm-cv-card {
+	margin: 0;
+}
+
+.rm-cv-card  li {
+	width: 240px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ebebeb #bdbdbd #bdbdbd #bdbdbd;
+	padding: 0;
+	margin: 10px;
+}
+.rm-cv-card-outer {
+	padding: 0 13px 13px 0;
+	height: 150px;
+	margin-left: 2px;
+    overflow: hidden;
+}
+.rm-cv-avatar-thumbnail {
+	text-align: center;
+	padding: 4px;
+	width: 74px;
+	height: 74px;
+}
+.rm-cv-avatar-thumbnail .img-responsive {
+	max-height: 100%;
+	display: inline;
+}
+
+.rm-cv-card-kana {
+	font-size: 0.8em;
+	padding: 10px 0 0 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	min-height: 2em;
+}
+.rm-cv-card-name {
+	font-size: 1.5em;
+	padding-left: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.rm-cv-card-name-en:before {
+	content: "(";
+}
+.rm-cv-card-name-en:after {
+	content: ")";
+}
+.rm-cv-card-name-en {
+	font-size: 0.8em;
+	padding: 0 0 5px 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.rm-cv-card-name-affiliation {
+	font-size: 1em;
+	font-weight: bold;
+	color: #555;
+	padding-left: 13px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-height: 2.5em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+	line-height: 1.3;
+}
+.rm-cv-card-name-section {
+	font-size: 0.75em;
+	color: #8a8a8a;
+	padding-left: 13px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	height: 2.8em;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+	line-height: 1.3;
+}
+/**
+ * cvカードの下につける日時のフォント
+ *
+ * 会員管理、関連ユーザ表示箇所で使用
+ */
+.rm-cv-card-date-font{
+	font-size: 60%;
+}
+
+/* 共通  */
+
+.rm-form .form-group {
+	margin-bottom: 10px;
+}
+.rm-form .form-group:last-child {
+	margin-bottom: 0;
+}
+.rm-form .rm-form-group {
+	margin-bottom: 24px;
+}
+.rm-form .rm-form-group:last-child {
+	margin-bottom: 16px;
+}
+.rm-form-label {
+	border: 0;
+	font-weight: 700;
+	font-size: inherit;
+}
+
+.rm-form-value label {
+	font-weight: normal;
+	display: inline;
+}
+.rm-form-value .form-inline {
+	padding-top: 8px;
+}
+
+input.rm-form-legend-input {
+	margin: 9px 5px 9px 20px;
+}
+
+.rm-form-multi-select {
+	padding: 8px 0 0 20px;
+}
+
+.rm-form-multi-select.form-inline {
+	padding: 0 0 0 20px;
+}
+
+.rm-form-multi-select.form-inline > .checkbox {
+	padding-right: 5px;
+	padding-left: 15px;
+}
+
+.rm-form-horizontal-checkbox {
+	padding-top: 8px;
+}
+
+.rm-form-inline-radio label,
+.rm-form-inline-radio span {
+	display: inline-block;
+    margin-bottom: 0;
+}
+.rm-form-inline-radio span.control-label {
+	padding-top: 0;
+}
+.rm-form-inline-radio span > input {
+	margin-left: 4px;
+}
+.rm-form-inline-radio span > label {
+	margin-right: 20px;
+}
+
+/* 添付ファイル */
+.rm-form-file {
+	width: 100%;
+}
+
+/* ヘルプブロックの文字色 */
+.rm-help-block {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #737373;
+}
+.form-group .rm-help-block {
+	margin-bottom: 0;
+}
+.small.rm-help-block {
+	font-weight: normal;
+}
+
+@media (max-width: 767px) {
+	/* 年月日 */
+	.rm-form-date {
+		/*display: inline;*/
+		/*width: 25%;*/
+		margin-bottom: 4px;
+	}
+	.rm-form-value label.rm-form-until-today {
+		display: block;
+	}
+}
+@media (min-width: 768px) {
+	/* 年月日 */
+	.rm-form-date {
+		display: inline;
+		width: 20%;
+	}
+	input.rm-form-date {
+		margin-right: 8px;
+	}
+	select.rm-form-date {
+		margin-right: 8px;
+	}
+	.rm-form-until-today {
+		padding-left: 6px;
+	}
+	/* パーマリンク */
+	.rm-form-permalink {
+		display: inline;
+		width: 50%;
+	}
+}
+
+.rm-relative {
+	position: relative;
+}
+
+/* 非公開ラベル */
+.rm-closed-input-label {
+	display: inline-block;
+	font-weight: normal;
+}
+
+/* popoverヘルプボタン */
+.rm-help-btn {
+	padding: 0;
+}
+
+/* col-smをちょうどよいものにする */
+@media (min-width: 768px) {
+	.rm-col-sm-25 {
+		width: 20.83333%;
+	}
+	.rm-col-sm-35 {
+		width: 29.16667%;
+	}
+	.rm-col-sm-45 {
+		width: 37.5%;
+	}
+	.rm-col-sm-55 {
+		width: 45.83333%;
+	}
+	.rm-col-sm-65 {
+		width: 54.16667%;
+	}
+	.rm-col-sm-75 {
+		width: 62.5%;
+	}
+	.rm-col-sm-85 {
+		width: 70.83333%;
+	}
+	.rm-col-sm-95 {
+		width: 79.16667%;
+	}
+	.rm-col-sm-offset-25 {
+		margin-left: 20.83333%;
+	}
+	.rm-col-sm-offset-35 {
+		margin-left: 29.16667%;
+	}
+	.rm-col-sm-offset-45 {
+		margin-left: 37.5%;
+	}
+	.rm-col-sm-offset-55 {
+		margin-left: 45.83333%;
+	}
+}
+
+/* アバター写真 */
+.rm-page-header ul.rm-avatar-nav {
+	color: #333;
+	margin: 0;
+}
+.rm-page-header ul.rm-avatar-nav > li {
+	padding: 10px 16px;
+	margin: 0;
+}
+.rm-page-header ul.rm-avatar-nav > li.active,
+.rm-page-header ul.rm-avatar-nav > li:hover,
+.rm-page-header ul.rm-avatar-nav > li:focus {
+	background-color: transparent;
+}
+
+.rm-page-header ul.rm-avatar-nav > li label {
+	margin: 0 16px 0 8px;
+	font-weight: normal;
+}
+.rm-page-header ul.rm-avatar-nav > li input.rm-form-legend-input {
+	margin: 6px 5px 0 0;
+}
+
+.rm-avatar {
+	position: relative;
+}
+
+.rm-avatar img {
+	background-color: #fff;
+	border-radius: 2px;
+	border: 2px solid #e2e2e2;
+	margin: auto;
+	/*max-width: 140px;*/
+	max-height: 140px;
+}
+
+.rm-add-avatar-outer {
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition:	all 0.6s ease;
+	transition:	all 0.6s ease;
+	overflow: hidden;
+}
+
+.rm-add-avatar {
+	background-color: #4c4c4c;
+	opacity: 0.6;
+	width: 140px;
+	padding: 5px 0;
+	border: 1px solid #ccc;
+	font-size: 90%;
+	margin: 0 auto;
+}
+.rm-avatar:hover .rm-add-avatar-outer {
+	opacity: 1;
+	bottom: 4px;
+}
+
+.rm-modified {
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+/* カバー写真 */
+#rm-cover-photo {
+	position: absolute;
+	/*height: 300px;*/
+	overflow: hidden;
+	top: 0;
+}
+
+#rm-cover-photo img {
+	position: absolute;
+}
+
+.rm-cover-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0,0) 36%)
+}
+
+/* ファイル選択 */
+.rm-select-file {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.rm-input-file {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 1000px;
+	height: 500px;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	z-index: 1;
+}
+
+/* ヘルプのpopover */
+.rm-help-btn + div.popover {
+	color: #333;
+}
+
+/* サイドブロック アバターリスト 共著一覧、フォロー一覧、コミュニティメンバー、参加コミュニティ一覧 */
+.rm-side-block-avatar-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.rm-side-block-avatar-list .col-sm-6 {
+	padding-left:4px;
+	padding-right:4px;
+}
+.rm-side-block-avatar-list .thumbnail {
+	margin-bottom: 5px;
+	height: 95%;
+}
+.rm-side-block-avatar-list .thumbnail img {
+	width: 80px;
+	height: 80px;
+}
+.rm-side-block-avatar-list .thumbnail .caption {
+	padding: 5px 0px 0px;
+	text-align: center;
+	font-size: 0.85em;
+}
+.rm-side-block-more {
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+.rm-side-block-more .btn {
+	color: #337ab7;
+	background-color: #fff;
+	border-color: #ccc;
+	border-top-width: 0;
+	border-radius: 0 0 4px 4px;
+	font-size: 12px;
+	padding: 5px 40px;
+}
+
+/* newアイコン */
+.rm-new-icon {
+	font-weight: bold;
+	font-style: italic;
+	color: #0000FF;
+	font-size: 80%;
+}

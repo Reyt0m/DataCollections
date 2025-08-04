@@ -1,0 +1,197 @@
+/**
+ * @fileoverview CV(履歴書) Javascript
+ * @author nakajimashouhei@gmail.com (Shohei Nakajima)
+ */
+
+
+/**
+ * パスワード付き添付ファイル Javascript
+ *
+ * @param {string} Controller name
+ * @param {function($scope)} Controller
+ */
+NetCommonsApp.controller('CvDatasetWithPassword',
+    ['$scope', 'NetCommonsModal', 'NC3_URL', function($scope, NetCommonsModal, NC3_URL) {
+
+      /**
+       * ダイアログ表示
+       *
+       * @param {string} url URL
+       * @param {string} display_lang 表示言語
+       * @return {void}
+       */
+      $scope.enterPassword = function(url, lang) {
+        NetCommonsModal.show(
+            $scope, 'CvDatasetWithPassword.modal',
+            NC3_URL + url + '?display_lang=' + lang + '&' + Math.random().toString(36).slice(2),
+            {
+              //backdrop: 'static',
+              size: 'sm'
+            }
+        );
+      };
+    }]);
+
+
+/**
+ * パスワード付き添付ファイルのポップアップ
+ */
+NetCommonsApp.factory('CvDatasetWithPasswordDownload',
+    ['ajaxSendPost',
+      function(ajaxSendPost) {
+
+        /**
+         * ダウンロード処理
+         *
+         * @return {void}
+         */
+        return function(scope, event, formDomId, formAction, modelName) {
+          if (scope.$parent.sending) {
+            event.preventDefault();
+            return;
+          }
+          scope.$parent.sending = true;
+          event.preventDefault();
+
+          var formElement = $('#' + formDomId);
+
+          var postData = {};
+          postData['_Token'] = {};
+          postData[modelName] = {
+            '_source': {
+              'dataset': {
+                'password': ''
+              }
+            }
+          };
+
+          var tokenKeyIndex = 0;
+          var passwordIndex = 0;
+          for (var i = 0; i < formElement[0].form.length; i++) {
+            var tokenField = '';
+            switch (formElement[0].form[i].name) {
+              case 'data[_Token][key]':
+                tokenField = 'key';
+                tokenKeyIndex = i;
+                break;
+              case 'data[_Token][fields]':
+                tokenField = 'fields';
+                break;
+              case 'data[_Token][unlocked]':
+                tokenField = 'unlocked';
+                break;
+              case 'data[_Token][debug]':
+                tokenField = 'debug';
+                break;
+              case 'data[' + modelName + '][_source][dataset][password]':
+                postData[modelName]['_source']['dataset']['password'] =
+                                        formElement[0].form[i].value;
+                passwordIndex = i;
+                break;
+            }
+            if (tokenField) {
+              postData['_Token'][tokenField] = formElement[0].form[i].value;
+            }
+          }
+
+          if (formElement[0].form[passwordIndex].value === '') {
+            scope.$parent.sending = false;
+            return;
+          }
+
+          ajaxSendPost('POST', formAction, postData)
+              .success(function(response) {
+                scope.submitForm(formElement, tokenKeyIndex, passwordIndex);
+              })
+              .error(function(response) {
+                //エラー処理
+                var data = response.data;
+                scope.flashMessage(data.message, 'danger', data.interval);
+                scope.$parent.sending = false;
+              });
+        };
+      }]);
+
+
+/**
+ * パスワード付き添付ファイルのポップアップ
+ */
+NetCommonsApp.controller('CvDatasetWithPassword.modal',
+    ['$scope', '$uibModalInstance', '$http', 'NC3_URL', 'CvDatasetWithPasswordDownload',
+      function($scope, $uibModalInstance, $http, NC3_URL, CvDatasetWithPasswordDownload) {
+
+        /**
+         * キャンセル処理
+         *
+         * @return {void}
+         */
+        $scope.cancel = function() {
+          $uibModalInstance.result.then(function() { }, function() { });
+          $uibModalInstance.dismiss('cancel');
+        };
+
+        /**
+         * ダウンロード処理
+         *
+         * @return {void}
+         */
+        $scope.download = function($event, formDomId, formAction, modelName) {
+          CvDatasetWithPasswordDownload($scope, $event, formDomId, formAction, modelName);
+        };
+
+        /**
+         * Formタグのsubmit
+         *
+         * @return {void}
+         */
+        $scope.submitForm = function(formElement, tokenKeyIndex, passwordIndex) {
+          $http.get(NC3_URL + '/net_commons/net_commons/csrfToken.json')
+              .then(function(response) {
+                formElement[0].form[tokenKeyIndex].value = response.data.data._Token.key;
+                formElement[0].form.submit();
+                $scope.$parent.sending = false;
+                $scope.cancel();
+              },
+              function(response) {
+                $scope.$parent.sending = false;
+              });
+        };
+
+      }]);
+
+
+/**
+ * パスワード付き添付ファイルのレイアウト
+ */
+NetCommonsApp.controller('CvDatasetWithPassword.layout',
+    ['$scope', '$http', 'NC3_URL', 'CvDatasetWithPasswordDownload',
+      function($scope, $http, NC3_URL, CvDatasetWithPasswordDownload) {
+
+        /**
+         * ダウンロード処理
+         *
+         * @return {void}
+         */
+        $scope.download = function($event, formDomId, formAction, modelName) {
+          CvDatasetWithPasswordDownload($scope, $event, formDomId, formAction, modelName);
+        };
+
+        /**
+         * Formタグのsubmit
+         *
+         * @return {void}
+         */
+        $scope.submitForm = function(formElement, tokenKeyIndex, passwordIndex) {
+          $http.get(NC3_URL + '/net_commons/net_commons/csrfToken.json')
+              .then(function(response) {
+                formElement[0].form[tokenKeyIndex].value = response.data.data._Token.key;
+                formElement[0].form.submit();
+                formElement[0].form[passwordIndex].value = '';
+                $scope.$parent.sending = false;
+              },
+              function(response) {
+                $scope.$parent.sending = false;
+              });
+        };
+
+      }]);

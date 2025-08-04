@@ -1,0 +1,164 @@
+
+#tinymce {
+    margin: 6px 12px;
+}
+
+/**
+ * ダイアログ表示の補正(書籍検索)
+ */
+#wysiwyg-book-search {
+    font-size: 0.9em;
+}
+#wysiwyg-books-result {
+    position:relative;
+    width:100%;
+    top:0;
+    background-color:#fff;
+}
+#wysiwyg-books-result .result-items-wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/**
+ * 書籍検索/詳細表示用スタイル
+ */
+ul.wysiwyg-books, div.wysiwyg-books {
+    height: auto;
+    margin: 0px auto;
+    position: relative;
+    list-style: none;
+}
+div.wysiwyg-books {
+    max-width: none;
+    /*margin: 10px: 0px;*/
+}
+.wysiwyg-books .book-title{
+    margin-bottom: 5px;
+    white-space: normal;
+}
+.wysiwyg-books .book-title a, .wysiwyg-books .book-title span {
+    font-size: 1.2em;
+    color: #337ab7;
+    text-decoration: none;
+    white-space: normal;
+}
+.wysiwyg-books .book-item {
+    position: relative;
+    padding: 5px 10px;
+    height: auto;
+    min-height: 100px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.wysiwyg-books .book-item > div{
+    position: relative;
+}
+.wysiwyg-books .book-item-detail {
+    position: relative;
+    line-height: 1.5;
+}
+
+.wysiwyg-books .book-item-img {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 76px;
+}
+.wysiwyg-books .book-item-img img{
+    width: 60px;
+    height: 76px;
+}
+
+.wysiwyg-books .book-item-inner {
+    position: relative;
+    margin-left: 70px;
+}
+.wysiwyg-books .book-item-inner *{
+    line-height: 1.5;
+}
+.wysiwyg-books .book-item-inner > div{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.wysiwyg-books .book-item-inner .authors a {
+    color: #337ab7;
+    text-decoration: none;
+    white-space: normal;
+}
+.wysiwyg-books .book-item .book-item-description {
+    white-space: normal;
+}
+.wysiwyg-books .btn-area {
+    width: 100%;
+    text-align: right;
+}
+
+.wysiwyg-books .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.wysiwyg-books .link-btn {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+/**
+ * ボタンスタイル
+ */
+
+/**
+ * ページャ用スタイル
+ */
+#wysiwyg-pagination {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#wysiwyg-pagination ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+/**
+ * clearfix
+ */
+.wysiwyg-clearfix:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.wysiwyg-clearfix {
+    min-height: 1px;
+}
+
+/**
+ * メディア
+ */
+.mce-object-iframe iframe {
+	max-width: 100%;
+}
