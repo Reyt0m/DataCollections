@@ -5,6 +5,7 @@ Research Map Integrated Scraper
 
 Research Mapから研究者情報と競争的研究課題を取得する統合スクレイパー
 複数のスクレイピングモード（HTML、Enhanced）をサポート
+包括的な研究者データ取得機能を含む
 """
 
 import requests
@@ -35,16 +36,15 @@ class ResearchMapIntegratedScraper:
     """
     Research Mapから研究者情報と競争的研究課題を取得する統合クラス
     複数のスクレイピングモードをサポート
+    包括的な研究者データ取得機能を含む
     """
 
-    def __init__(self, mode: str = "enhanced"):
+    def __init__(self):
         """
         Research Map Integrated Scraperの初期化
-
-        Args:
-            mode (str): スクレイピングモード ("basic", "enhanced", "html")
+        Enhanced mode（最も詳細なモード）で初期化されます
         """
-        self.mode = mode
+        self.mode = "enhanced"
         self.base_url = "https://researchmap.jp"
         self.session = requests.Session()
 
@@ -58,7 +58,7 @@ class ResearchMapIntegratedScraper:
             'Upgrade-Insecure-Requests': '1',
         })
 
-        logger.info(f"ResearchMap Integrated Scraper initialized in {mode} mode")
+        logger.info("ResearchMap Integrated Scraper initialized in enhanced mode")
 
     def get_total_pages(self, search_url: str) -> int:
         """
@@ -308,66 +308,11 @@ class ResearchMapIntegratedScraper:
             logger.error(f"研究者詳細情報取得エラー: {e}")
             return {}
 
-    def get_research_projects_basic(self, researcher_url: str) -> List[Dict[str, Any]]:
+
+
+    def get_research_projects(self, researcher_url: str) -> List[Dict[str, Any]]:
         """
-        研究者の競争的研究課題を取得（Basic mode用）
-
-        Args:
-            researcher_url (str): 研究者のURL
-
-        Returns:
-            List[Dict[str, Any]]: 研究課題のリスト
-        """
-        try:
-            logger.info(f"研究課題を取得中: {researcher_url}")
-
-            response = self.session.get(researcher_url)
-            response.raise_for_status()
-
-            soup = BeautifulSoup(response.content, 'html.parser')
-
-            projects = []
-
-            all_links = soup.find_all('a', href=True)
-            research_project_links = [link for link in all_links if 'research_projects' in link['href'] and link['href'].endswith('/research_projects') == False]
-
-            for link in research_project_links:
-                try:
-                    project_info = {}
-
-                    project_title = link.get_text().strip()
-                    if project_title and project_title != "もっとみる":
-                        project_info['title'] = project_title
-
-                        project_url = link['href']
-                        if not project_url.startswith('http'):
-                            project_url = urljoin(self.base_url, project_url)
-                        project_info['project_url'] = project_url
-
-                        match = re.search(r'/research_projects/(\d+)$', project_url)
-                        if match:
-                            project_info['project_id'] = match.group(1)
-
-                        # 競争的資金の判定は詳細ページで行うため、ここでは一時的にFalseに設定
-                        project_info['is_competitive'] = False
-
-                        if project_info:
-                            projects.append(project_info)
-
-                except Exception as e:
-                    logger.error(f"研究課題情報抽出エラー: {e}")
-                    continue
-
-            logger.info(f"{len(projects)}件の研究課題を取得しました")
-            return projects
-
-        except Exception as e:
-            logger.error(f"研究課題取得エラー: {e}")
-            return []
-
-    def get_research_projects_enhanced(self, researcher_url: str) -> List[Dict[str, Any]]:
-        """
-        研究者の競争的研究課題を詳細情報付きで取得（Enhanced mode用）
+        研究者の競争的研究課題を詳細情報付きで取得
 
         Args:
             researcher_url (str): 研究者のURL
@@ -378,74 +323,18 @@ class ResearchMapIntegratedScraper:
         try:
             logger.info(f"研究課題詳細を取得中: {researcher_url}")
 
-            all_projects = []
-            page = 1
-            start_index = 1
+            # 研究課題ページのURLを構築
+            projects_url = researcher_url + "/research_projects"
+            logger.info(f"研究課題ページURL: {projects_url}")
 
-            while True:
-                if page == 1:
-                    projects_url = researcher_url + "/research_projects"
-                else:
-                    projects_url = f"{researcher_url}/research_projects?limit=20&start={start_index}"
+            response = self.session.get(projects_url)
+            response.raise_for_status()
 
-                logger.info(f"研究課題ページ {page} を取得中: {projects_url}")
+            # HTMLから研究課題を抽出
+            projects = self.extract_research_projects_from_html(response.text)
 
-                response = self.session.get(projects_url)
-                response.raise_for_status()
-
-                soup = BeautifulSoup(response.content, 'html.parser')
-
-                project_items = soup.find_all('li')
-
-                page_projects = []
-                for item in project_items:
-                    try:
-                        title_element = item.find('a', href=lambda x: x and 'research_projects' in x)
-                        if not title_element or title_element.get_text().strip() == "もっとみる":
-                            continue
-
-                        project_info = {}
-                        project_title = title_element.get_text().strip()
-                        project_info['title'] = project_title
-
-                        project_url = title_element['href']
-                        if not project_url.startswith('http'):
-                            project_url = urljoin(self.base_url, project_url)
-                        project_info['project_url'] = project_url
-
-                        match = re.search(r'/research_projects/(\d+)$', project_url)
-                        if match:
-                            project_info['project_id'] = match.group(1)
-
-                        project_details = self.get_project_details(project_url)
-                        project_info.update(project_details)
-
-                        # 競争的資金かどうかの判定（HTML構成要素ベース）
-                        project_info['is_competitive'] = self.is_competitive_funding_by_html_structure(
-                            funding_system=project_info.get('funding_system', ''),
-                            institution=project_info.get('institution'),
-                            project_type=project_info.get('project_type')
-                        )
-
-                        page_projects.append(project_info)
-
-                    except Exception as e:
-                        logger.error(f"研究課題情報抽出エラー: {e}")
-                        continue
-
-                all_projects.extend(page_projects)
-
-                next_link = soup.find('a', string='もっとみる')
-                if not next_link or len(page_projects) < 20:
-                    break
-
-                page += 1
-                start_index = (page - 1) * 20 + 1
-
-                time.sleep(random.uniform(1, 2))
-
-            logger.info(f"{len(all_projects)}件の研究課題を取得しました")
-            return all_projects
+            logger.info(f"{len(projects)}件の研究課題を取得しました")
+            return projects
 
         except Exception as e:
             logger.error(f"研究課題取得エラー: {e}")
@@ -999,6 +888,211 @@ class ResearchMapIntegratedScraper:
         logger.info(f"  競争的資金ではないと判定")
         return False
 
+    def get_researcher_keywords(self, researcher_url: str) -> List[Dict[str, Any]]:
+        """
+        研究者の研究キーワードを取得
+
+        Args:
+            researcher_url (str): 研究者のURL
+
+        Returns:
+            List[Dict[str, Any]]: 研究キーワードのリスト
+        """
+        try:
+            logger.info(f"研究キーワードを取得中: {researcher_url}")
+
+            response = self.session.get(researcher_url)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            keywords = []
+
+            # 研究キーワードセクションを取得
+            keywords_section = soup.find('div', class_='research_interests-body')
+            if keywords_section:
+                keyword_items = keywords_section.find_all('li', class_='rm-cv-disclosed')
+
+                for item in keyword_items:
+                    keyword_link = item.find('a', class_='rm-cv-list-title')
+                    if keyword_link:
+                        keyword_info = {
+                            'keyword': keyword_link.get_text().strip(),
+                            'url': keyword_link.get('href', ''),
+                            'keyword_id': keyword_link.get('href', '').split('/')[-1] if keyword_link.get('href') else ''
+                        }
+                        keywords.append(keyword_info)
+                        logger.info(f"  キーワード: {keyword_info['keyword']}")
+
+            logger.info(f"{len(keywords)}件の研究キーワードを取得しました")
+            return keywords
+
+        except Exception as e:
+            logger.error(f"研究キーワード取得エラー: {e}")
+            return []
+
+    def get_researcher_areas(self, researcher_url: str) -> List[Dict[str, Any]]:
+        """
+        研究者の研究分野を取得
+
+        Args:
+            researcher_url (str): 研究者のURL
+
+        Returns:
+            List[Dict[str, Any]]: 研究分野のリスト
+        """
+        try:
+            logger.info(f"研究分野を取得中: {researcher_url}")
+
+            response = self.session.get(researcher_url)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            areas = []
+
+            # 研究分野セクションを取得
+            areas_section = soup.find('div', class_='research_areas-body')
+            if areas_section:
+                area_items = areas_section.find_all('li', class_='rm-cv-disclosed')
+
+                for item in area_items:
+                    area_link = item.find('a', class_='rm-cv-list-title')
+                    if area_link:
+                        area_info = {
+                            'area': area_link.get_text().strip(),
+                            'url': area_link.get('href', ''),
+                            'area_id': area_link.get('href', '').split('/')[-1] if area_link.get('href') else ''
+                        }
+                        areas.append(area_info)
+                        logger.info(f"  研究分野: {area_info['area']}")
+
+            logger.info(f"{len(areas)}件の研究分野を取得しました")
+            return areas
+
+        except Exception as e:
+            logger.error(f"研究分野取得エラー: {e}")
+            return []
+
+    def get_researcher_affiliations(self, researcher_url: str) -> List[Dict[str, Any]]:
+        """
+        研究者のすべての所属先を取得
+
+        Args:
+            researcher_url (str): 研究者のURL
+
+        Returns:
+            List[Dict[str, Any]]: 所属先のリスト
+        """
+        try:
+            logger.info(f"所属先を取得中: {researcher_url}")
+
+            response = self.session.get(researcher_url)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            affiliations = []
+
+            # 基本情報セクションから所属先を取得
+            basic_info_sections = soup.find_all('dl', class_='rm-cv-basic-dl')
+
+            for section in basic_info_sections:
+                dt_elements = section.find_all('dt')
+                dd_elements = section.find_all('dd')
+
+                # 所属セクションを見つける
+                for i, dt in enumerate(dt_elements):
+                    if dt.get_text().strip() == '所属':
+                        # 所属のdd要素を処理（複数のdd要素に分かれている可能性）
+                        j = i
+                        while j < len(dd_elements):
+                            dd = dd_elements[j]
+                            affiliation_links = dd.find_all('a')
+
+                            if affiliation_links:
+                                for link in affiliation_links:
+                                    affiliation_text = link.get_text().strip()
+                                    affiliation_url = link.get('href', '')
+
+                                    # 役職情報を取得（リンクの後のテキスト）
+                                    position_text = ''
+                                    if link.next_sibling:
+                                        position_text = link.next_sibling.strip()
+
+                                    affiliation_info = {
+                                        'institution': affiliation_text,
+                                        'url': affiliation_url,
+                                        'position': position_text,
+                                        'full_text': link.parent.get_text().strip() if link.parent else ''
+                                    }
+                                    affiliations.append(affiliation_info)
+                                    logger.info(f"  所属先: {affiliation_text} - {position_text}")
+
+                                # 次のdd要素に進む
+                                j += 1
+                            else:
+                                # リンクがない場合は次のdt要素までスキップ
+                                break
+
+                        # 所属セクションを処理したので終了
+                        break
+
+            logger.info(f"{len(affiliations)}件の所属先を取得しました")
+            return affiliations
+
+        except Exception as e:
+            logger.error(f"所属先取得エラー: {e}")
+            return []
+
+    def get_researcher_education(self, researcher_url: str) -> List[Dict[str, Any]]:
+        """
+        研究者の学歴を取得
+
+        Args:
+            researcher_url (str): 研究者のURL
+
+        Returns:
+            List[Dict[str, Any]]: 学歴のリスト
+        """
+        try:
+            logger.info(f"学歴を取得中: {researcher_url}")
+
+            response = self.session.get(researcher_url)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            education = []
+
+            # 学歴セクションを取得
+            education_section = soup.find('div', class_='education-body')
+            if education_section:
+                education_items = education_section.find_all('li', class_='list-group-item rm-cv-disclosed')
+
+                for item in education_items:
+                    content_div = item.find('div', class_='rm-cv-list-content')
+                    if content_div:
+                        row_div = content_div.find('div', class_='row')
+                        if row_div:
+                            cols = row_div.find_all('div')
+                            if len(cols) >= 2:
+                                period = cols[0].get_text().strip()
+                                education_link = cols[1].find('a', class_='rm-cv-list-title')
+
+                                if education_link:
+                                    education_info = {
+                                        'period': period,
+                                        'institution': education_link.get_text().strip(),
+                                        'url': education_link.get('href', ''),
+                                        'education_id': education_link.get('href', '').split('/')[-1] if education_link.get('href') else ''
+                                    }
+                                    education.append(education_info)
+                                    logger.info(f"  学歴: {period} - {education_info['institution']}")
+
+            logger.info(f"{len(education)}件の学歴を取得しました")
+            return education
+
+        except Exception as e:
+            logger.error(f"学歴取得エラー: {e}")
+            return []
+
     def scrape_all_researchers_and_projects(self, search_url: str = None,
                                           max_researchers: int = None) -> Dict[str, Any]:
         """
@@ -1011,7 +1105,7 @@ class ResearchMapIntegratedScraper:
         Returns:
             Dict[str, Any]: 全データ
         """
-        logger.info(f"研究者と競争的研究課題の取得を開始（モード: {self.mode}）")
+        logger.info("研究者と競争的研究課題の取得を開始")
 
         if not search_url:
             search_url = "https://researchmap.jp/researchers?affiliation=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE"
@@ -1034,12 +1128,8 @@ class ResearchMapIntegratedScraper:
                     logger.warning(f"研究者 {researcher.get('name', 'Unknown')} のURLが見つかりません")
                     continue
 
-                if self.mode == "enhanced":
-                    detailed_info = self.get_researcher_detailed_info(researcher_url)
-                    projects = self.get_research_projects_enhanced(researcher_url)
-                else:
-                    detailed_info = {}
-                    projects = self.get_research_projects_basic(researcher_url)
+                detailed_info = self.get_researcher_detailed_info(researcher_url)
+                projects = self.get_research_projects(researcher_url)
 
                 competitive_projects = [p for p in projects if p.get('is_competitive', False)]
                 total_competitive_projects += len(competitive_projects)
@@ -1068,7 +1158,6 @@ class ResearchMapIntegratedScraper:
             'total_competitive_projects': total_competitive_projects,
             'researchers': researchers_with_projects,
             'scraped_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            'mode': self.mode,
             'search_url': search_url
         }
 
@@ -1104,7 +1193,7 @@ class ResearchMapIntegratedScraper:
             output_file (str): 出力ファイル名
         """
         if not output_file:
-            output_file = f"researchmap_{self.mode}_results.xlsx"
+            output_file = "researchmap_results.xlsx"
 
         try:
             researchers_data = []
@@ -1117,18 +1206,14 @@ class ResearchMapIntegratedScraper:
                     'position': researcher.get('position', ''),
                     'researcher_id': researcher.get('researcher_id', ''),
                     'researcher_url': researcher.get('researcher_url', ''),
-                    'competitive_project_count': researcher.get('competitive_project_count', 0)
+                    'competitive_project_count': researcher.get('competitive_project_count', 0),
+                    'orcid_id': researcher.get('orcid_id', ''),
+                    'jglobal_id': researcher.get('jglobal_id', ''),
+                    'researchmap_member_id': researcher.get('researchmap_member_id', ''),
+                    'research_keywords': '; '.join(researcher.get('research_keywords', [])),
+                    'research_areas': '; '.join(researcher.get('research_areas', [])),
+                    'all_affiliations': '; '.join(researcher.get('all_affiliations', []))
                 }
-
-                if self.mode == "enhanced":
-                    base_info.update({
-                        'orcid_id': researcher.get('orcid_id', ''),
-                        'jglobal_id': researcher.get('jglobal_id', ''),
-                        'researchmap_member_id': researcher.get('researchmap_member_id', ''),
-                        'research_keywords': '; '.join(researcher.get('research_keywords', [])),
-                        'research_areas': '; '.join(researcher.get('research_areas', [])),
-                        'all_affiliations': '; '.join(researcher.get('all_affiliations', []))
-                    })
 
                 if not researcher.get('competitive_projects'):
                     researchers_data.append(base_info)
@@ -1142,17 +1227,16 @@ class ResearchMapIntegratedScraper:
                             'is_competitive': project.get('is_competitive', False)
                         })
 
-                        if self.mode == "enhanced":
-                            row.update({
-                                'funding_system': project.get('funding_system', ''),
-                                'period': project.get('period', ''),
-                                'researchers': project.get('researchers', ''),
-                                'description': project.get('description', ''),
-                                'budget': project.get('budget', ''),
-                                'research_category': project.get('research_category', ''),
-                                'keywords': '; '.join(project.get('keywords', [])),
-                                'organizations': '; '.join(project.get('organizations', []))
-                            })
+                        row.update({
+                            'funding_system': project.get('funding_system', ''),
+                            'period': project.get('period', ''),
+                            'researchers': project.get('researchers', ''),
+                            'description': project.get('description', ''),
+                            'budget': project.get('budget', ''),
+                            'research_category': project.get('research_category', ''),
+                            'keywords': '; '.join(project.get('keywords', [])),
+                            'organizations': '; '.join(project.get('organizations', []))
+                        })
 
                         researchers_data.append(row)
 
@@ -1190,16 +1274,210 @@ class ResearchMapIntegratedScraper:
         except Exception as e:
             logger.error(f"Excelエクスポートエラー: {e}")
 
+    def get_comprehensive_researcher_data(self, researcher_url: str) -> Dict[str, Any]:
+        """
+        一人の研究者について取得できるすべてのデータを取得
+
+        Args:
+            researcher_url (str): 研究者のURL
+
+        Returns:
+            Dict[str, Any]: 研究者の包括的なデータ
+        """
+        comprehensive_data = {
+            'researcher_url': researcher_url,
+            'basic_info': {},
+            'detailed_info': {},
+            'research_keywords': [],
+            'research_areas': [],
+            'all_affiliations': [],
+            'education': [],
+            'research_projects': [],
+            'summary': {}
+        }
+
+        try:
+            logger.info(f"研究者の包括的データ取得開始: {researcher_url}")
+
+            # 1. 研究者の基本情報を取得（検索結果ページから）
+            logger.info("=== 1. 研究者の基本情報を取得 ===")
+            basic_info = self.get_researcher_basic_info(researcher_url)
+            comprehensive_data['basic_info'] = basic_info
+            logger.info(f"基本情報取得完了: {basic_info.get('name', 'Unknown')}")
+
+            # 2. 研究者の詳細情報を取得
+            logger.info("=== 2. 研究者の詳細情報を取得 ===")
+            detailed_info = self.get_researcher_detailed_info(researcher_url)
+            comprehensive_data['detailed_info'] = detailed_info
+            logger.info(f"詳細情報取得完了: ORCID={detailed_info.get('orcid_id', 'N/A')}")
+
+            # 3. 研究キーワードを取得
+            logger.info("=== 3. 研究キーワードを取得 ===")
+            keywords = self.get_researcher_keywords(researcher_url)
+            comprehensive_data['research_keywords'] = keywords
+            logger.info(f"研究キーワード取得完了: {len(keywords)}件")
+
+            # 4. 研究分野を取得
+            logger.info("=== 4. 研究分野を取得 ===")
+            areas = self.get_researcher_areas(researcher_url)
+            comprehensive_data['research_areas'] = areas
+            logger.info(f"研究分野取得完了: {len(areas)}件")
+
+            # 5. すべての所属先を取得
+            logger.info("=== 5. すべての所属先を取得 ===")
+            affiliations = self.get_researcher_affiliations(researcher_url)
+            comprehensive_data['all_affiliations'] = affiliations
+            logger.info(f"所属先取得完了: {len(affiliations)}件")
+
+            # 6. 学歴を取得
+            logger.info("=== 6. 学歴を取得 ===")
+            education = self.get_researcher_education(researcher_url)
+            comprehensive_data['education'] = education
+            logger.info(f"学歴取得完了: {len(education)}件")
+
+            # 7. 研究課題を取得
+            logger.info("=== 7. 研究課題を取得 ===")
+            projects = self.get_research_projects(researcher_url)
+            comprehensive_data['research_projects'] = projects
+            logger.info(f"研究課題取得完了: {len(projects)}件")
+
+            # 9. サマリー情報を生成
+            logger.info("=== 9. サマリー情報を生成 ===")
+            summary = self.generate_summary(comprehensive_data)
+            comprehensive_data['summary'] = summary
+            logger.info(f"サマリー生成完了: {summary}")
+
+            logger.info("=== 包括的データ取得完了 ===")
+            return comprehensive_data
+
+        except Exception as e:
+            logger.error(f"包括的データ取得中にエラーが発生しました: {e}")
+            return comprehensive_data
+
+    def get_researcher_basic_info(self, researcher_url: str) -> Dict[str, Any]:
+        """
+        研究者の基本情報を取得（検索結果ページから）
+
+        Args:
+            researcher_url (str): 研究者のURL
+
+        Returns:
+            Dict[str, Any]: 研究者の基本情報
+        """
+        try:
+            # 研究者IDを抽出
+            researcher_id = researcher_url.split('/')[-1]
+
+            # 検索URLを構築（研究者名で検索）
+            search_url = f"https://researchmap.jp/search?q={researcher_id}&lang=ja"
+
+            response = self.session.get(search_url)
+            response.raise_for_status()
+
+            # 検索結果から研究者情報を抽出
+            researchers = self.extract_researchers_from_page(response.content)
+
+            # 該当する研究者を探す
+            for researcher in researchers:
+                if researcher.get('researcher_url') == researcher_url:
+                    return researcher
+
+            # 見つからない場合は空の辞書を返す
+            return {}
+
+        except Exception as e:
+            logger.error(f"基本情報取得エラー: {e}")
+            return {}
+
+    def generate_summary(self, data: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        データのサマリー情報を生成
+
+        Args:
+            data (Dict[str, Any]): 包括的データ
+
+        Returns:
+            Dict[str, Any]: サマリー情報
+        """
+        summary = {}
+
+        # 基本情報のサマリー
+        basic_info = data.get('basic_info', {})
+        summary['researcher_name'] = basic_info.get('name', 'Unknown')
+        summary['researcher_id'] = basic_info.get('researcher_id', 'Unknown')
+        summary['affiliation'] = basic_info.get('affiliation', 'Unknown')
+        summary['position'] = basic_info.get('position', 'Unknown')
+
+        # 詳細情報のサマリー
+        detailed_info = data.get('detailed_info', {})
+        summary['orcid_id'] = detailed_info.get('orcid_id', 'N/A')
+        summary['researcher_id'] = detailed_info.get('researcher_id', 'N/A')
+        summary['research_keywords_count'] = len(data.get('research_keywords', []))
+        summary['research_areas_count'] = len(data.get('research_areas', []))
+        summary['affiliations_count'] = len(data.get('all_affiliations', []))
+        summary['education_count'] = len(data.get('education', []))
+
+        # 研究課題のサマリー
+        projects = data.get('research_projects', [])
+
+        summary['total_projects'] = len(projects)
+
+        # 競争的研究課題の統計
+        competitive_projects = [p for p in projects if p.get('is_competitive', False)]
+
+        summary['competitive_projects'] = len(competitive_projects)
+
+        # 助成金機関の統計
+        institutions = {}
+        for project in projects:
+            institution = project.get('institution', 'Unknown')
+            if institution in institutions:
+                institutions[institution] += 1
+            else:
+                institutions[institution] = 1
+
+        summary['funding_institutions'] = institutions
+        summary['unique_institutions_count'] = len(institutions)
+
+        # 研究期間の統計
+        periods = [p.get('period', 'Unknown') for p in projects if p.get('period')]
+        summary['research_periods'] = list(set(periods))
+
+        return summary
+
+    def save_comprehensive_data(self, data: Dict[str, Any], researcher_id: str = None) -> str:
+        """
+        包括的データをJSONファイルに保存
+
+        Args:
+            data (Dict[str, Any]): 包括的データ
+            researcher_id (str): 研究者ID
+
+        Returns:
+            str: 保存されたファイル名
+        """
+        if not researcher_id:
+            researcher_id = data.get('basic_info', {}).get('researcher_id', 'unknown')
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"comprehensive_researcher_data_{researcher_id}_{timestamp}.json"
+
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+        logger.info(f"包括的データを保存しました: {filename}")
+        return filename
+
 def main():
     """
     メイン実行関数
     """
     parser = argparse.ArgumentParser(description='Research Map統合スクレイパー')
-    parser.add_argument('--mode', type=str, choices=['basic', 'enhanced', 'html'],
-                       default='enhanced', help='スクレイピングモード')
     parser.add_argument('--search-url', type=str,
                        default='https://researchmap.jp/researchers?affiliation=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE',
                        help='検索URL')
+    parser.add_argument('--researcher-url', type=str,
+                       help='包括的データ取得用の研究者URL')
     parser.add_argument('--test', type=int, help='テストモード: 指定した数の研究者のみ処理')
     parser.add_argument('--output-prefix', type=str, default='researchmap_integrated',
                        help='出力ファイルのプレフィックス')
@@ -1207,24 +1485,52 @@ def main():
     args = parser.parse_args()
 
     # スクレイパーを初期化
-    scraper = ResearchMapIntegratedScraper(mode=args.mode)
+    scraper = ResearchMapIntegratedScraper()
 
     try:
-        results = scraper.scrape_all_researchers_and_projects(
-            search_url=args.search_url,
-            max_researchers=args.test
-        )
+        if args.researcher_url:
+            # 包括的データ取得モード
+            logger.info(f"包括的データ取得を開始: {args.researcher_url}")
 
-        # 結果を保存
-        if args.test:
-            output_prefix = f"{args.output_prefix}_{args.mode}_test_{args.test}"
+            # 包括的データを取得
+            comprehensive_data = scraper.get_comprehensive_researcher_data(args.researcher_url)
+
+            # データを保存
+            filename = scraper.save_comprehensive_data(comprehensive_data)
+
+            # サマリーを表示
+            summary = comprehensive_data.get('summary', {})
+            logger.info(f"\n=== 取得結果サマリー ===")
+            logger.info(f"研究者名: {summary.get('researcher_name', 'Unknown')}")
+            logger.info(f"所属: {summary.get('affiliation', 'Unknown')}")
+            logger.info(f"研究キーワード数: {summary.get('research_keywords_count', 0)}")
+            logger.info(f"研究分野数: {summary.get('research_areas_count', 0)}")
+            logger.info(f"所属先数: {summary.get('affiliations_count', 0)}")
+            logger.info(f"学歴数: {summary.get('education_count', 0)}")
+            logger.info(f"総研究課題数: {summary.get('total_projects', 0)}")
+            logger.info(f"競争的研究課題数: {summary.get('competitive_projects', 0)}")
+            logger.info(f"助成金機関数: {summary.get('unique_institutions_count', 0)}")
+
+            logger.info(f"\n詳細データは {filename} に保存されました")
+            logger.info("包括的データ取得完了")
+
         else:
-            output_prefix = f"{args.output_prefix}_{args.mode}"
+            # 通常の一括取得モード
+            results = scraper.scrape_all_researchers_and_projects(
+                search_url=args.search_url,
+                max_researchers=args.test
+            )
 
-        scraper.save_results(results, f"{output_prefix}_results.json")
-        scraper.export_to_excel(results, f"{output_prefix}_results.xlsx")
+            # 結果を保存
+            if args.test:
+                output_prefix = f"{args.output_prefix}_test_{args.test}"
+            else:
+                output_prefix = args.output_prefix
 
-        logger.info("処理が完了しました")
+            scraper.save_results(results, f"{output_prefix}_results.json")
+            scraper.export_to_excel(results, f"{output_prefix}_results.xlsx")
+
+            logger.info("処理が完了しました")
 
     except Exception as e:
         logger.error(f"メイン処理エラー: {e}")

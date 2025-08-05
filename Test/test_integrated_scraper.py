@@ -33,7 +33,7 @@ def test_html_extraction():
 
     if not html_file_path.exists():
         logger.error(f"HTMLファイルが見つかりません: {html_file_path}")
-        return
+        return None
 
     try:
         # HTMLファイルを読み込み
@@ -55,7 +55,7 @@ def test_html_extraction():
 
         # 詳細結果を表示
         for i, project in enumerate(projects, 1):
-            logger.info(f"\n研究課題 {i}:")
+            logger.info(f"研究課題 {i}:")
             logger.info(f"  タイトル: {project.get('title', 'N/A')}")
             logger.info(f"  URL: {project.get('project_url', 'N/A')}")
             logger.info(f"  ID: {project.get('project_id', 'N/A')}")
@@ -76,7 +76,12 @@ def test_html_extraction():
 
         logger.info(f"結果を保存しました: {output_file}")
 
-        return projects
+        # 結果を辞書形式で返す
+        return {
+            'total_projects': len(projects),
+            'competitive_projects': len(competitive_projects),
+            'projects': projects
+        }
 
     except Exception as e:
         logger.error(f"テスト実行中にエラーが発生しました: {e}")
@@ -86,7 +91,7 @@ def test_single_researcher():
     """単一研究者の研究課題取得テスト"""
 
     # スクレイパーの初期化
-    scraper = ResearchMapIntegratedScraper(mode="enhanced")
+        scraper = ResearchMapIntegratedScraper(mode="enhanced")
 
     # テスト用研究者URL
     researcher_url = "https://researchmap.jp/hidekanematsu"
@@ -115,9 +120,6 @@ def test_single_researcher():
 
         # 結果をJSONファイルに保存
         result = {
-            'researcher': detailed_info,
-            'all_projects': projects,
-            'competitive_projects': competitive_projects,
             'total_projects': len(projects),
             'total_competitive_projects': len(competitive_projects)
         }
