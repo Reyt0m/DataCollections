@@ -1,0 +1,593 @@
+{
+  "total_researchers": 2,
+  "processed_researchers": 2,
+  "total_competitive_projects": 32,
+  "researchers": [
+    {
+      "name": "兼松 秀行",
+      "researcher_url": "https://researchmap.jp/hidekanematsu",
+      "researcher_id": "hidekanematsu",
+      "english_name": "Hideyuki Kanematsu",
+      "affiliation": "株式会社BEL （常勤）",
+      "position": "代表",
+      "kana_name": "カネマツ ヒデユキ",
+      "orcid_id": "https://orcid.org/0000-0002-9144-6539",
+      "jglobal_id": "200901095311014810",
+      "researchmap_member_id": "1000141487",
+      "research_keywords": [
+        "3Dプリンティング",
+        "表面汚れ",
+        "表面ぬめり",
+        "生物付着",
+        "バイオファウリング",
+        "分離回収",
+        "バイオフィルム",
+        "熱処理",
+        "表面処理",
+        "抗菌",
+        "福祉",
+        "環境",
+        "Hot Dip Galvanizing",
+        "Green Surface",
+        "Heat Treatment",
+        "Environmental Friendliness",
+        "Surface Treatment"
+      ],
+      "research_areas": [
+        "情報通信 / 知能情報学 / デジタルツイン; メタバース;3Dプリンティング;スタートアップ教育;アントレプレナーシップ",
+        "ナノテク・材料 / 複合材料、界面 / 生体材料・バイオフィルム工学",
+        "人文・社会 / 科学教育 / 創造工学教育",
+        "環境・農学 / 環境材料、リサイクル技術 / 環境磁気学",
+        "環境・農学 / 環境負荷低減技術、保全修復技術 / 環境磁気学",
+        "ナノテク・材料 / 金属生産、資源生産 / 材料プロセッシングの物理化学",
+        "ナノテク・材料 / 複合材料、界面 / 材料表面科学・工学",
+        "ナノテク・材料 / 金属生産、資源生産 /",
+        "ナノテク・材料 / 材料加工、組織制御 /"
+      ],
+      "all_affiliations": [
+        "株式会社BEL （常勤） 代表",
+        "大阪大学大学院工学研究科 （非常勤） マテリアル生産科学専攻 教授 (特任教授)",
+        "東海国立大学機構・名古屋大学 （非常勤） 未来社会創造機構 マテリアルイノベーション研究所 教授 (客員教授)",
+        "INTI国際大学（マレーシア) （非常勤） 特任研究員 (リサーチフェロー)",
+        "Woxsen大学 （非常勤） 工学部計算機科学・工学科 特任研究員 (外部専門委員)",
+        "各種学会役員（非常勤） 各種学協会役員，査読委員 (ASM International フェロー（FASM）、英国材料表面処理学会フェロー（FIMF）、)",
+        "鈴鹿工業高等専門学校 （名誉職，実務なし） 材料工学科 名誉教授"
+      ],
+      "all_projects": [
+        {
+          "title": "鉄鋼材料およびスラグ上に形成したバイオフィルムの３顕微鏡同一箇所水中その場解析",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/46614481",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 2023年4月 - 2026年3月",
+          "researchers": "平井 信充, 岩田 太, 兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "革新的キャリアマネージメント機構の創出による超高効率塗布型太陽電池の創製",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898614",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 基盤研究(B) 2022年4月 - 2026年3月",
+          "researchers": "加藤 岳仁, 兼松秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "A-txtによるセル・デコ教科書とAI・ｘRを駆使したカスタマブル授業形態の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898609",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 基盤研究(B) 2021年4月 - 2026年3月",
+          "researchers": "鈴木 真ノ介, 兼松 秀行, 秋元 祐太朗, 小林 康浩, 平田 克己, 小川 信之, 矢島 邦昭",
+          "is_competitive": true
+        },
+        {
+          "title": "DXによる教育変革を期待するPBL教育のためのサイバネティック・アバターデザイン",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898590",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 基盤研究(C) 2022年4月 - 2025年3月",
+          "researchers": "小川 信之, 兼松秀行, 矢島邦昭, 中平勝子",
+          "is_competitive": true
+        },
+        {
+          "title": "交流電磁界を利用した非接触バイオフィルム/感染制御システムの開発研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898572",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 基盤研究(C) 2021年4月 - 2024年3月",
+          "researchers": "三浦 英和, 兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料およびスラグ上に形成したバイオフィルムのＳＩＣＭによる水中その場観察",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898596",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 基盤研究(C) 2020年4月 - 2023年3月",
+          "researchers": "平井 信充, 兼松 秀行, 岩田 太",
+          "is_competitive": true
+        },
+        {
+          "title": "Society 5.0指向の問題解決型学習評価指標・フィードバックシステムの構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36580099",
+          "funding_system": "日本学術振興会 科学研究費 科学研究費基盤研究(C) 2019年4月 - 2022年3月",
+          "researchers": "小川信之, 兼松秀行, 矢島邦昭, 中平勝子",
+          "is_competitive": true
+        },
+        {
+          "title": "グラフェンの生体内重合物質感受性と感染力センサーへの適用に関する基礎的研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648924",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2017年4月 - 2020年3月",
+          "researchers": "兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオフィルム生成超初期過程の走査型イオン伝導顕微鏡その場観察",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648928",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2016年4月 - 2019年3月",
+          "researchers": "平井信充",
+          "is_competitive": true
+        },
+        {
+          "title": "効果的な仮想空間内アクティブラーニング実現へ向けた生体情報利活用手法の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648925",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2016年4月 - 2019年3月",
+          "researchers": "小川 信之",
+          "is_competitive": true
+        },
+        {
+          "title": "フレキシブル有機半導体の屈曲性改善と評価手法の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/44974323",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 2015年4月 - 2018年3月",
+          "researchers": "小林 敏郎, 岡田 真, 内海 裕一, 兼松 秀行, Colligon John. S., 枡田 剛",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料表面に形成されたバイオフィルムの鉱物化に関する研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648926",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2015年4月 - 2018年3月",
+          "researchers": "生貝初",
+          "is_competitive": true
+        },
+        {
+          "title": "温泉熱利用発電のためのスケール対策物理処理技術の研究開発",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648929",
+          "funding_system": "国立研究開発法人新エネルギー・産業技術総合開発機構 地熱発電技術研究開発 2014年4月 - 2018年3月",
+          "researchers": "田路 和幸",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオフィルム生成超初期における金属材料表面への細菌の付着性の評価",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648927",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2013年4月 - 2016年3月",
+          "researchers": "平井信充",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料表面におけるバイオフィルム易形成機構の解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/45354592",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 2012年4月 - 2015年3月",
+          "researchers": "生貝 初, 兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオ技術活用の防汚鏡と低バックラッシ機構によりLCC を最小化す る集光装置の開発",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/10178992",
+          "funding_system": "NEDO（独立行政法人新エネルギー・産業技術総合開発機構） 新エネルギーベンチャー技術革新事業 2012年7月 - 2014年3月",
+          "researchers": "兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄-細菌結合を用いた磁場による放射性物質除染プロセスの可能性探索",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9968955",
+          "funding_system": "日本学術振興会 科学研究費補助金挑戦的萌芽研究 2012年4月 - 2014年3月",
+          "researchers": "兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "海洋菌バイオフィルム形成抑制を目的とした金属材料表面改質と抑制メカニズムの解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9968954",
+          "funding_system": "日本学術振興会 科学研究費補助金基盤B一般 基盤研究(B) 2009年4月 - 2012年3月",
+          "researchers": "兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "実験細胞を用いた亜鉛等重金属の環境リスク評価と熱処理合金化による環境負荷低減技術の開発研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9715865",
+          "funding_system": "鉄鋼環境基金 環境研究 2008年11月 - 2011年10月",
+          "researchers": "兼松秀行",
+          "is_competitive": false
+        },
+        {
+          "title": "ヒト培養細胞アッセイによるめっき加工品からの重金属溶出と生体毒性との関連性の解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/45244505",
+          "funding_system": "日本学術振興会 科学研究費助成事業 若手研究(B) 2009年 - 2010年",
+          "researchers": "小川 亜希子, 兼松 秀行, 玉内 秀一",
+          "is_competitive": true
+        }
+      ],
+      "competitive_projects": [
+        {
+          "title": "鉄鋼材料およびスラグ上に形成したバイオフィルムの３顕微鏡同一箇所水中その場解析",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/46614481",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 2023年4月 - 2026年3月",
+          "researchers": "平井 信充, 岩田 太, 兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "革新的キャリアマネージメント機構の創出による超高効率塗布型太陽電池の創製",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898614",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 基盤研究(B) 2022年4月 - 2026年3月",
+          "researchers": "加藤 岳仁, 兼松秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "A-txtによるセル・デコ教科書とAI・ｘRを駆使したカスタマブル授業形態の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898609",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 基盤研究(B) 2021年4月 - 2026年3月",
+          "researchers": "鈴木 真ノ介, 兼松 秀行, 秋元 祐太朗, 小林 康浩, 平田 克己, 小川 信之, 矢島 邦昭",
+          "is_competitive": true
+        },
+        {
+          "title": "DXによる教育変革を期待するPBL教育のためのサイバネティック・アバターデザイン",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898590",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 基盤研究(C) 2022年4月 - 2025年3月",
+          "researchers": "小川 信之, 兼松秀行, 矢島邦昭, 中平勝子",
+          "is_competitive": true
+        },
+        {
+          "title": "交流電磁界を利用した非接触バイオフィルム/感染制御システムの開発研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898572",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 基盤研究(C) 2021年4月 - 2024年3月",
+          "researchers": "三浦 英和, 兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料およびスラグ上に形成したバイオフィルムのＳＩＣＭによる水中その場観察",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36898596",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 基盤研究(C) 2020年4月 - 2023年3月",
+          "researchers": "平井 信充, 兼松 秀行, 岩田 太",
+          "is_competitive": true
+        },
+        {
+          "title": "Society 5.0指向の問題解決型学習評価指標・フィードバックシステムの構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/36580099",
+          "funding_system": "日本学術振興会 科学研究費 科学研究費基盤研究(C) 2019年4月 - 2022年3月",
+          "researchers": "小川信之, 兼松秀行, 矢島邦昭, 中平勝子",
+          "is_competitive": true
+        },
+        {
+          "title": "グラフェンの生体内重合物質感受性と感染力センサーへの適用に関する基礎的研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648924",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2017年4月 - 2020年3月",
+          "researchers": "兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオフィルム生成超初期過程の走査型イオン伝導顕微鏡その場観察",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648928",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2016年4月 - 2019年3月",
+          "researchers": "平井信充",
+          "is_competitive": true
+        },
+        {
+          "title": "効果的な仮想空間内アクティブラーニング実現へ向けた生体情報利活用手法の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648925",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2016年4月 - 2019年3月",
+          "researchers": "小川 信之",
+          "is_competitive": true
+        },
+        {
+          "title": "フレキシブル有機半導体の屈曲性改善と評価手法の構築",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/44974323",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 2015年4月 - 2018年3月",
+          "researchers": "小林 敏郎, 岡田 真, 内海 裕一, 兼松 秀行, Colligon John. S., 枡田 剛",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料表面に形成されたバイオフィルムの鉱物化に関する研究",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648926",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2015年4月 - 2018年3月",
+          "researchers": "生貝初",
+          "is_competitive": true
+        },
+        {
+          "title": "温泉熱利用発電のためのスケール対策物理処理技術の研究開発",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648929",
+          "funding_system": "国立研究開発法人新エネルギー・産業技術総合開発機構 地熱発電技術研究開発 2014年4月 - 2018年3月",
+          "researchers": "田路 和幸",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオフィルム生成超初期における金属材料表面への細菌の付着性の評価",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/11648927",
+          "funding_system": "日本学術振興会 科学研究費助成事業・基盤研究(c) 2013年4月 - 2016年3月",
+          "researchers": "平井信充",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄鋼材料表面におけるバイオフィルム易形成機構の解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/45354592",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 2012年4月 - 2015年3月",
+          "researchers": "生貝 初, 兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "バイオ技術活用の防汚鏡と低バックラッシ機構によりLCC を最小化す る集光装置の開発",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/10178992",
+          "funding_system": "NEDO（独立行政法人新エネルギー・産業技術総合開発機構） 新エネルギーベンチャー技術革新事業 2012年7月 - 2014年3月",
+          "researchers": "兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "鉄-細菌結合を用いた磁場による放射性物質除染プロセスの可能性探索",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9968955",
+          "funding_system": "日本学術振興会 科学研究費補助金挑戦的萌芽研究 2012年4月 - 2014年3月",
+          "researchers": "兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "海洋菌バイオフィルム形成抑制を目的とした金属材料表面改質と抑制メカニズムの解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/9968954",
+          "funding_system": "日本学術振興会 科学研究費補助金基盤B一般 基盤研究(B) 2009年4月 - 2012年3月",
+          "researchers": "兼松 秀行",
+          "is_competitive": true
+        },
+        {
+          "title": "ヒト培養細胞アッセイによるめっき加工品からの重金属溶出と生体毒性との関連性の解明",
+          "project_url": "https://researchmap.jp/hidekanematsu/research_projects/45244505",
+          "funding_system": "日本学術振興会 科学研究費助成事業 若手研究(B) 2009年 - 2010年",
+          "researchers": "小川 亜希子, 兼松 秀行, 玉内 秀一",
+          "is_competitive": true
+        }
+      ],
+      "competitive_project_count": 19
+    },
+    {
+      "name": "池田 裕二",
+      "researcher_url": "https://researchmap.jp/yuji-ikeda-ilab",
+      "researcher_id": "yuji-ikeda-ilab",
+      "english_name": "Yuji Ikeda",
+      "affiliation": "アイラボ株式会社",
+      "position": "CTO",
+      "kana_name": "池田 裕二",
+      "orcid_id": "https://orcid.org/0000-0002-0844-9895",
+      "jglobal_id": "202301010994729202",
+      "researchmap_member_id": "R000052792",
+      "research_keywords": [],
+      "research_areas": [
+        "エネルギー / プラズマ応用科学 / プラズマ、計測、エンジン、燃焼"
+      ],
+      "all_affiliations": [
+        "アイラボ株式会社 CTO (工学博士)"
+      ],
+      "all_projects": [
+        {
+          "title": "非平衡プラズマによるスマート燃焼サーマルマネージメント",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45369057",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 2013年4月 - 2016年3月",
+          "researchers": "冨田 栄二, 佐々木 浩一, 赤松 史光, 池田 裕二, 河原 伸幸",
+          "is_competitive": true
+        },
+        {
+          "title": "実証研究 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410137",
+          "funding_system": "独立行政法人 新エネルギー・産業技術総合開発機構 省エネルギー革新技術開発事業 2011年8月 - 2014年2月",
+          "researchers": "池田裕二",
+          "is_competitive": false
+        },
+        {
+          "title": "次世代燃料の遠隔分析技術開発とMOX燃料による実証的研究",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410002",
+          "funding_system": "文部科学省 文部科学省 原子力システム研究開発事業 2010年4月 - 2012年2月",
+          "researchers": "池田裕二",
+          "is_competitive": false
+        },
+        {
+          "title": "非平衡プラズマによる含水物超燃焼熱システムの着火・燃焼過程の解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45270728",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 2010年 - 2012年",
+          "researchers": "冨田 栄二, 佐々木 浩一, 赤松 史光, 池田 裕二, 河原 伸幸, 明石 治朗",
+          "is_competitive": true
+        },
+        {
+          "title": "実用化開発 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410121",
+          "funding_system": "独立行政法人 新エネルギー・産業技術総合開発機構 エネルギー使用合理化技術戦略的開発事業 2008年6月 - 2009年3月",
+          "researchers": "池田裕二",
+          "is_competitive": false
+        },
+        {
+          "title": "大気圧・空気プラズマを利用した揮発性有機化合物（VOC）等の無害化装置の開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410039",
+          "funding_system": "独立行政法人 新エネルギー・産業技術総合開発機構 有害化学物質リスク削減基盤技術研究開発委託事業 2006年6月 - 2009年2月",
+          "researchers": "池田裕二",
+          "is_competitive": false
+        },
+        {
+          "title": "先導研究開発 マイクロ波プラズマ燃焼エンジンの研究開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410113",
+          "funding_system": "独立行政法人 新エネルギー・産業技術総合開発機構 エネルギー使用合理化技術戦略的開発事業 2006年7月 - 2008年3月",
+          "researchers": "池田裕二",
+          "is_competitive": false
+        },
+        {
+          "title": "スパークプラグ埋込型光着火・プラズマ分光計測システムの開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42410024",
+          "funding_system": "独立行政法人 新エネルギー・産業技術総合開発機構 エネルギー使用合理化産業技術開発費等補助事業 産業技術実用化開発事業費補助事業 2006年5月 - 2008年3月",
+          "researchers": "池田裕二",
+          "is_competitive": false
+        },
+        {
+          "title": "ナノ秒・ナノメートルの着火・消炎メカニズムの解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45096050",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 2006年 - 2007年",
+          "researchers": "冨田 栄二, 河原 伸幸, 池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "大学発ベンチャー創出推進事業",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/42409980",
+          "funding_system": "独立行政法人 科学技術振興機構 レーザ干渉法を利用した小型・光ファイバ・高応答温度センサの開発 2004年4月 - 2006年3月",
+          "researchers": "岡山大学教授, 冨田栄二, イマジニアリング(株, 池田裕二",
+          "is_competitive": false
+        },
+        {
+          "title": "ナノ秒・ナノメートルの着火・消炎現象の光学計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44996790",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 2004年 - 2005年",
+          "researchers": "冨田 栄二, 河原 伸幸, 池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "高密度光による火炎制御と光スペクトル計測による光と火炎の干渉機構の解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44910106",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 2002年 - 2004年",
+          "researchers": "香月 正司, 赤松 史光, 芝原 正彦, 足立 正之, 池田 裕二, 山田 直樹",
+          "is_competitive": true
+        },
+        {
+          "title": "高空間・高波長分解能をもつ高速分光システムの開発と火炎計測への応用",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44857947",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 2000年 - 2002年",
+          "researchers": "香月 正司, 中島 健, 芝原 正彦, 赤松 史光, 足立 正之, 池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "圧力感知粒子を用いた高乱流中の速度―圧力相関のレーザ計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44877102",
+          "funding_system": "日本学術振興会 科学研究費助成事業 萌芽的研究 2000年 - 2001年",
+          "researchers": "池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "半導体レーザ分光を用いた低環境負荷高効率ガスタービン燃焼器の開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44810334",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 1998年 - 2000年",
+          "researchers": "宮内 敏雄, 大塚 雅哉, 池田 裕二, 店橋 護",
+          "is_competitive": true
+        },
+        {
+          "title": "光学的計測を駆使した噴霧の時空間構造の解明とその燃焼機構",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44804713",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 1998年 - 2000年",
+          "researchers": "香月 正司, 池田 裕二, 中島 健, 赤松 史光, 千田 二郎, 藤本 元",
+          "is_competitive": true
+        },
+        {
+          "title": "熱流体現象の光学的計測結果からの知識発見",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44826232",
+          "funding_system": "日本学術振興会 科学研究費助成事業 特定領域研究(A) 1999年 - 1999年",
+          "researchers": "池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "熱流体現象の光学的計測結果からの知識発見",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44801985",
+          "funding_system": "日本学術振興会 科学研究費助成事業 特定領域研究(A) 1998年 - 1998年",
+          "researchers": "池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "乱流燃焼構造の光学的計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44786274",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 1997年 - 1998年",
+          "researchers": "池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "光学測定による噴霧燃料の燃焼機構の解明とそのモデリングに関する研究",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44692934",
+          "funding_system": "日本学術振興会 科学研究費助成事業 総合研究(A) 1994年 - 1995年",
+          "researchers": "水谷 幸夫, 富山 明男, 池田 裕二, 中島 健, 赤松 史光, 香月 正司",
+          "is_competitive": true
+        }
+      ],
+      "competitive_projects": [
+        {
+          "title": "非平衡プラズマによるスマート燃焼サーマルマネージメント",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45369057",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 2013年4月 - 2016年3月",
+          "researchers": "冨田 栄二, 佐々木 浩一, 赤松 史光, 池田 裕二, 河原 伸幸",
+          "is_competitive": true
+        },
+        {
+          "title": "非平衡プラズマによる含水物超燃焼熱システムの着火・燃焼過程の解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45270728",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 2010年 - 2012年",
+          "researchers": "冨田 栄二, 佐々木 浩一, 赤松 史光, 池田 裕二, 河原 伸幸, 明石 治朗",
+          "is_competitive": true
+        },
+        {
+          "title": "ナノ秒・ナノメートルの着火・消炎メカニズムの解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/45096050",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 2006年 - 2007年",
+          "researchers": "冨田 栄二, 河原 伸幸, 池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "ナノ秒・ナノメートルの着火・消炎現象の光学計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44996790",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 2004年 - 2005年",
+          "researchers": "冨田 栄二, 河原 伸幸, 池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "高密度光による火炎制御と光スペクトル計測による光と火炎の干渉機構の解明",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44910106",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 2002年 - 2004年",
+          "researchers": "香月 正司, 赤松 史光, 芝原 正彦, 足立 正之, 池田 裕二, 山田 直樹",
+          "is_competitive": true
+        },
+        {
+          "title": "高空間・高波長分解能をもつ高速分光システムの開発と火炎計測への応用",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44857947",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 2000年 - 2002年",
+          "researchers": "香月 正司, 中島 健, 芝原 正彦, 赤松 史光, 足立 正之, 池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "圧力感知粒子を用いた高乱流中の速度―圧力相関のレーザ計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44877102",
+          "funding_system": "日本学術振興会 科学研究費助成事業 萌芽的研究 2000年 - 2001年",
+          "researchers": "池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "半導体レーザ分光を用いた低環境負荷高効率ガスタービン燃焼器の開発",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44810334",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(B) 1998年 - 2000年",
+          "researchers": "宮内 敏雄, 大塚 雅哉, 池田 裕二, 店橋 護",
+          "is_competitive": true
+        },
+        {
+          "title": "光学的計測を駆使した噴霧の時空間構造の解明とその燃焼機構",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44804713",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(A) 1998年 - 2000年",
+          "researchers": "香月 正司, 池田 裕二, 中島 健, 赤松 史光, 千田 二郎, 藤本 元",
+          "is_competitive": true
+        },
+        {
+          "title": "熱流体現象の光学的計測結果からの知識発見",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44826232",
+          "funding_system": "日本学術振興会 科学研究費助成事業 特定領域研究(A) 1999年 - 1999年",
+          "researchers": "池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "熱流体現象の光学的計測結果からの知識発見",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44801985",
+          "funding_system": "日本学術振興会 科学研究費助成事業 特定領域研究(A) 1998年 - 1998年",
+          "researchers": "池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "乱流燃焼構造の光学的計測",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44786274",
+          "funding_system": "日本学術振興会 科学研究費助成事業 基盤研究(C) 1997年 - 1998年",
+          "researchers": "池田 裕二",
+          "is_competitive": true
+        },
+        {
+          "title": "光学測定による噴霧燃料の燃焼機構の解明とそのモデリングに関する研究",
+          "project_url": "https://researchmap.jp/yuji-ikeda-ilab/research_projects/44692934",
+          "funding_system": "日本学術振興会 科学研究費助成事業 総合研究(A) 1994年 - 1995年",
+          "researchers": "水谷 幸夫, 富山 明男, 池田 裕二, 中島 健, 赤松 史光, 香月 正司",
+          "is_competitive": true
+        }
+      ],
+      "competitive_project_count": 13
+    }
+  ],
+  "scraped_at": "2025-08-07 01:38:26",
+  "search_url": "https://researchmap.jp/researchers?affiliation=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE"
+}
