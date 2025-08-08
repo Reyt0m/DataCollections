@@ -1,0 +1,395 @@
+[
+  {
+    "vc_id": 1,
+    "vc_name": "XTech Ventures",
+    "vc_url": "https://xtech-ventures.co.jp/",
+    "location": 2018.0,
+    "year_founded": "〇",
+    "affiliation_type": 2018.0,
+    "example_investments": "2.5",
+    "example_exits": "RiLi",
+    "portfolio_companies": [
+      {
+        "company_name": "TEAM",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "X-Gate",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Podcast",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "COMPANY",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "PLATFORM",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "INFORMATION",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "xBridge-Yaesu",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "MAIL MAGAZINE",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 8
+  },
+  {
+    "vc_id": 2,
+    "vc_name": "Itochu Technology Ventures",
+    "vc_url": "https://www.techv.co.jp/",
+    "location": 2000.0,
+    "year_founded": "〇",
+    "affiliation_type": 2000.0,
+    "example_investments": "1.0",
+    "example_exits": "Cure App",
+    "portfolio_companies": [],
+    "total_companies_found": 0
+  },
+  {
+    "vc_id": 3,
+    "vc_name": "Globis Capital Partners",
+    "vc_url": "https://www.globiscapital.co.jp/ja/",
+    "location": 2006.0,
+    "year_founded": "◎",
+    "affiliation_type": 2006.0,
+    "example_investments": "1.0",
+    "example_exits": "Mirativ",
+    "portfolio_companies": [
+      {
+        "company_name": "Team",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "JAEN",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Value",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Podcast",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Company",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "History",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Recruit",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Website",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "emol.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Spotify",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "See All",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Articles",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Category",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Frontier",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Business",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Consumer",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Companies",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "emol inc.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "GCP House",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Spotlights",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "TAIAN, Inc.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "robotruck.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Knowhere.Inc",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "All Companies",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "holoway.co.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "acompany.tech",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "taian-inc.com",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Apple Podcast",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "RoboTruck Inc.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "knowhere.co.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 30
+  },
+  {
+    "vc_id": 4,
+    "vc_name": "JAFCO",
+    "vc_url": "http://www.jafco.co.jp/",
+    "location": 1973.0,
+    "year_founded": "-",
+    "affiliation_type": 1973.0,
+    "example_investments": "2.0",
+    "example_exits": "Bizreach",
+    "portfolio_companies": [
+      {
+        "company_name": "JAFCO",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Event",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Scale",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Stance",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Company",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Support",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "JA\n\n\nEN",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Partners",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Read more",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Investment",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Recruitment",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Our Support",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "& JAFCO POST",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Your Partners",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Our Investment",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "IR Information",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "&&nbspJAFCO POST",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 17
+  },
+  {
+    "vc_id": 5,
+    "vc_name": "WiL",
+    "vc_url": "https://wilab.com/",
+    "location": 2013.0,
+    "year_founded": "〇",
+    "affiliation_type": 2013.0,
+    "example_investments": "0.6",
+    "example_exits": "Giftee",
+    "portfolio_companies": [],
+    "total_companies_found": 0
+  }
+]

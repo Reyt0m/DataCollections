@@ -1,0 +1,1638 @@
+[
+  {
+    "vc_id": 1,
+    "vc_name": "XTech Ventures",
+    "vc_url": "https://xtech-ventures.co.jp/",
+    "location": "Tokyo",
+    "year_founded": 2018.0,
+    "affiliation_type": "Independent",
+    "example_investments": "RiLi",
+    "example_exits": "SpaceMarket",
+    "portfolio_companies": [
+      {
+        "company_name": "X-Gate",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "xBridge-Yaesu",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 2
+  },
+  {
+    "vc_id": 2,
+    "vc_name": "Itochu Technology Ventures",
+    "vc_url": "https://www.techv.co.jp/",
+    "location": "Gaienmae",
+    "year_founded": 2000.0,
+    "affiliation_type": "Independent",
+    "example_investments": "Cure App",
+    "example_exits": "Mercari",
+    "portfolio_companies": [],
+    "total_companies_found": 0
+  },
+  {
+    "vc_id": 3,
+    "vc_name": "Globis Capital Partners",
+    "vc_url": "https://www.globiscapital.co.jp/ja/",
+    "location": "Kojimachi",
+    "year_founded": 2006.0,
+    "affiliation_type": "Independent",
+    "example_investments": "Mirativ",
+    "example_exits": "Mercari",
+    "portfolio_companies": [
+      {
+        "company_name": "emol.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Category",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Frontier",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Business",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Consumer",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Companies",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "emol inc.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "GCP House",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Spotlights",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "TAIAN, Inc.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "robotruck.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Knowhere.Inc",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "All Companies",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "holoway.co.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "taian-inc.com",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "RoboTruck Inc.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "knowhere.co.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "zetta-joule.com",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "tensorenergy.jp",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Other Spotlights",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "hakki-africa.com",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "ZettaJoule, Inc.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Holoway Co., Ltd.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Initial Investment",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Tensor Energy Inc.",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Business, Consumer",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Hakki Africa Limited",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Creation & Innovation",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "SpotlightsOther Spotlights",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "oceanic-constellations.com",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 30
+  },
+  {
+    "vc_id": 4,
+    "vc_name": "JAFCO",
+    "vc_url": "http://www.jafco.co.jp/",
+    "location": "Toranomon",
+    "year_founded": 1973.0,
+    "affiliation_type": "Independent",
+    "example_investments": "Bizreach",
+    "example_exits": "Gunosy",
+    "portfolio_companies": [
+      {
+        "company_name": "JAFCO",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Event",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Scale",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Stance",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Support",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "JA\n\n\nEN",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Partners",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Read more",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Investment",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Our Support",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "& JAFCO POST",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Your Partners",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Our Investment",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "&&nbspJAFCO POST",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 14
+  },
+  {
+    "vc_id": 5,
+    "vc_name": "WiL",
+    "vc_url": "https://wilab.com/",
+    "location": "Toranomon",
+    "year_founded": 2013.0,
+    "affiliation_type": "Independent",
+    "example_investments": "Giftee",
+    "example_exits": "Mercari",
+    "portfolio_companies": [],
+    "total_companies_found": 0
+  },
+  {
+    "vc_id": 6,
+    "vc_name": "STRIVE",
+    "vc_url": "https://strive.vc/",
+    "location": "Roppongi",
+    "year_founded": 2011.0,
+    "affiliation_type": "Independent",
+    "example_investments": "Lancers",
+    "example_exits": "Geniee",
+    "portfolio_companies": [
+      {
+        "company_name": "JOBS",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "note",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "STRIVE",
+        "source_element": "h1",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "ACCESS",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Twitter",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "VIEW ALL",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Facebook",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "EXIT (IPO, M&A)",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "HANDS-ON NETWORK",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 9
+  },
+  {
+    "vc_id": 7,
+    "vc_name": "DCM",
+    "vc_url": "https://www.dcm.com/",
+    "location": "Hibiya",
+    "year_founded": 2008.0,
+    "affiliation_type": "Global",
+    "example_investments": "Folio",
+    "example_exits": "Sansan",
+    "portfolio_companies": [
+      {
+        "company_name": "YQN",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "SoFi",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Bill.com",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Kuaishou",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Jane Doe",
+        "source_element": "h4",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Companies",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Learn more",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Matterport",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Jane DoeCEO",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Investor Portal",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "GigaCloud Technology",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "By builders, for builders",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Potential in the overlooked",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Partnership that goes deeper",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Long-term partners for your journey",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 15
+  },
+  {
+    "vc_id": 8,
+    "vc_name": "Global Brain",
+    "vc_url": "https://globalbrains.com/",
+    "location": "Shibuya",
+    "year_founded": 1998.0,
+    "affiliation_type": "Independent",
+    "example_investments": "CAMPFIRE",
+    "example_exits": "BASE",
+    "portfolio_companies": [
+      {
+        "company_name": "CVC",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Jobs",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "ROXX",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Near",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Funds",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "IPO40",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "M&A80",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Schoo",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Pit In",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Members",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Support",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Offices",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "TalentX",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Ridge-i",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Advisors",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Services",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "GB Pit In",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Laboro.AI",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Investment",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "GB Universe",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Fundraising",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Press Release",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Press Releases",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Sustainability",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Media Coverage",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "MembersAdvisors",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "General Inquiry",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Veritas In Silico",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Innovators Lounge",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "2025.07.24Hands-on",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 30
+  },
+  {
+    "vc_id": 10,
+    "vc_name": "Eight Roads Ventures Japan",
+    "vc_url": "https://eightroads.com/en/",
+    "location": "Roppongi",
+    "year_founded": 1994.0,
+    "affiliation_type": "Global",
+    "example_investments": "Paidy",
+    "example_exits": "Yappli",
+    "portfolio_companies": [
+      {
+        "company_name": "AUM",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "India",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Paidy",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Japan",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "People",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "English",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Icertis",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Japanese",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Companies",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "AppsFlyer",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Read more",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "READ STORY",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Europe & Israel",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Backed by  India",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Backed by  Japan",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Backed by  Europe & Israel",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "years of investing experience",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 17
+  },
+  {
+    "vc_id": 11,
+    "vc_name": "ANRI",
+    "vc_url": "https://anri.vc/",
+    "location": "Shibuya",
+    "year_founded": 2012.0,
+    "affiliation_type": "Independent",
+    "example_investments": "AppBrew",
+    "example_exits": "Raksul",
+    "portfolio_companies": [
+      {
+        "company_name": "CCCC",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "aaaa",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "pppp",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "iiii",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "tttt",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "llll",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "ANRI",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Changer",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "ANRIANRIANRIANRI",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "ChangerChangerChangerChanger",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "CCCCaaaappppiiiittttaaaallll",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 11
+  },
+  {
+    "vc_id": 12,
+    "vc_name": "DNX Ventures",
+    "vc_url": "https://www.dnx.vc/",
+    "location": "Otemachi",
+    "year_founded": 2011.0,
+    "affiliation_type": "Global",
+    "example_investments": "HERP",
+    "example_exits": "TeamSpirit",
+    "portfolio_companies": [
+      {
+        "company_name": "ENJP",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "LANGUAGEENJP",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "We fuel category-definingB2B Startups",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "We fuel category-definingB2B startups",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "USWe fuel category-definingB2B startups",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "USWe fuel category-definingB2B startupsUS",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 6
+  },
+  {
+    "vc_id": 13,
+    "vc_name": "Incubate Fund",
+    "vc_url": "http://incubatefund.com/",
+    "location": "Roppongi",
+    "year_founded": 2010.0,
+    "affiliation_type": "Independent",
+    "example_investments": "Sansan",
+    "example_exits": "GameWith",
+    "portfolio_companies": [
+      {
+        "company_name": "M&A",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "IPO",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Zero",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "More",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "than",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "MEDIA",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "CAREER",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Impact",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Twitter",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Facebook",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "COMPANIES",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Tohru Akaura",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Keisuke Wada",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Yusuke Murata",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Zero to Impact",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Masahiko Homma",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Paul McInerney",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "More than a VC",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "EN\t\t\t\t\t          \nJA",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "72\n\n\n\n            M&A",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "28\n\n\n\n            IPO",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "281\n\n\n\n            COMPANIES",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "JA\t\t\t\t\n\n\n \n          \t\t\t\t\t\t  EN\t\t\t\t\t          \nJA",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 23
+  },
+  {
+    "vc_id": 14,
+    "vc_name": "Daiwa Investment",
+    "vc_url": "https://www.daiwa-inv.co.jp/",
+    "location": "Tokyo",
+    "year_founded": 2013.0,
+    "affiliation_type": "Financial Institution",
+    "example_investments": "PR Table",
+    "example_exits": "Kaonavi",
+    "portfolio_companies": [
+      {
+        "company_name": "PDF",
+        "source_element": "div",
+        "confidence": "medium",
+        "source_section": "portfolio"
+      },
+      {
+        "company_name": "LINK",
+        "source_element": "div",
+        "confidence": "medium",
+        "source_section": "portfolio"
+      },
+      {
+        "company_name": "Notice",
+        "source_element": "h2",
+        "confidence": "medium",
+        "source_section": "portfolio"
+      },
+      {
+        "company_name": "Learn More",
+        "source_element": "div",
+        "confidence": "medium",
+        "source_section": "portfolio"
+      },
+      {
+        "company_name": "View All Funds",
+        "source_element": "div",
+        "confidence": "medium",
+        "source_section": "portfolio"
+      },
+      {
+        "company_name": "Read Full Message",
+        "source_element": "a",
+        "confidence": "medium",
+        "source_section": "portfolio"
+      }
+    ],
+    "total_companies_found": 6
+  },
+  {
+    "vc_id": 15,
+    "vc_name": "Salesforce Ventures",
+    "vc_url": "https://www.salesforce.com/jp/company/ventures/",
+    "location": "Tokyo",
+    "year_founded": 2014.0,
+    "affiliation_type": "Global",
+    "example_investments": "freee",
+    "example_exits": "Sansan",
+    "portfolio_companies": [
+      {
+        "company_name": "FAQ",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Legal",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Trust",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "People",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Access",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Insights",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Companies",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Expertise",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Ecosystem",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "What We Do",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Case Studies",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Perspectives",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Track Record",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "by\n\t\tPaul Drews",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Investment Strategy",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Skip companies grid",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Skip to main content",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Responsible Disclosure",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "by\n\t\tSalesforce Ventures",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "15 Years of Salesforce Ventures",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 20
+  },
+  {
+    "vc_id": 16,
+    "vc_name": "East Ventures",
+    "vc_url": "https://east.vc/",
+    "location": "Roppongi",
+    "year_founded": 2010.0,
+    "affiliation_type": "Independent",
+    "example_investments": "Giraffe",
+    "example_exits": "Mercari",
+    "portfolio_companies": [
+      {
+        "company_name": "ENID",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Exits",
+        "source_element": "h6",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Japan",
+        "source_element": "h4",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Videos",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Events",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "1Exits",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Career",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Submit",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Reports",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Founder",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "YouTube",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Startups",
+        "source_element": "h6",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Founders",
+        "source_element": "h6",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Insights",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "VIEW ALL",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Moses Lo",
+        "source_element": "h4",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "LinkedIn",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Facebook",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Read More",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "1Startups",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "1Founders",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Singapore",
+        "source_element": "h4",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Indonesia",
+        "source_element": "h4",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Instagram",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Visit Site",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Iman Usman",
+        "source_element": "h4",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Our journey",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "See details",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "See Details",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "F2DT BAG 22",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 30
+  },
+  {
+    "vc_id": 17,
+    "vc_name": "DBJ Capital",
+    "vc_url": "https://www.dbj-cap.jp/",
+    "location": "Otemachi",
+    "year_founded": 2010.0,
+    "affiliation_type": "Government",
+    "example_investments": "Every",
+    "example_exits": "gumi",
+    "portfolio_companies": [
+      {
+        "company_name": "READ MORE",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "OUR STRENGTHS",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "MISSION STATEMENT",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "ENTRANCETO THE FUTURE",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 4
+  },
+  {
+    "vc_id": 18,
+    "vc_name": "B Dash Ventures",
+    "vc_url": "http://www.bdashventures.com/",
+    "location": "Roppongi",
+    "year_founded": 2011.0,
+    "affiliation_type": "Independent",
+    "example_investments": "Funds (CloudPort)",
+    "example_exits": "gumi",
+    "portfolio_companies": [
+      {
+        "company_name": "Map",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "FUND",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "EVENT",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "ACCESS",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Scroll",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "B Dash Lab",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "OUR PURPOSE",
+        "source_element": "h2",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "B Dash Fund",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "B Dash Camp",
+        "source_element": "h3",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "DE&I Policy",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 10
+  },
+  {
+    "vc_id": 20,
+    "vc_name": "SBI Investment",
+    "vc_url": "http://www.sbinvestment.co.jp/",
+    "location": "Roppongi",
+    "year_founded": 1996.0,
+    "affiliation_type": "Financial Institution",
+    "example_investments": "OLTA",
+    "example_exits": "CYBERDYNE",
+    "portfolio_companies": [
+      {
+        "company_name": "New",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "VOICE",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Creator",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Industry",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "Features",
+        "source_element": "a",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "View more",
+        "source_element": "div",
+        "confidence": "low",
+        "source_section": "general"
+      },
+      {
+        "company_name": "New Industry",
+        "source_element": "span",
+        "confidence": "low",
+        "source_section": "general"
+      }
+    ],
+    "total_companies_found": 7
+  }
+]

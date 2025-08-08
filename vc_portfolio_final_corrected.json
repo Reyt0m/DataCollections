@@ -1,0 +1,3120 @@
+[
+  {
+    "vc_name": "Itochu Technology Ventures",
+    "vc_url": "https://www.techv.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2000",
+    "affiliation_type": "Independent",
+    "location": "Gaienmae",
+    "ticket_size": "1.0-2.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Globis Capital Partners",
+    "vc_url": "https://www.globiscapital.co.jp/ja/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "◎"
+    },
+    "year_founded": "2006",
+    "affiliation_type": "Independent",
+    "location": "Kojimachi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [
+      {
+        "company_name": "RoboTruck Inc.",
+        "initial_investment": "Seed",
+        "category": "Frontier",
+        "website": "robotruck.jp",
+        "description": "自動運転トラックの開発・運用を通じて、物流の抜本的改革を実現する",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Holoway Co., Ltd.",
+        "initial_investment": "Early",
+        "category": "Frontier",
+        "website": "holoway.co.jp",
+        "description": "デジタルホログラフィ技術を活用した革新的な精密測定・検査技術により半導体・宇宙等のモノづくりのフロンティアを切り開く",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Acompany Co., Ltd.",
+        "initial_investment": "Early",
+        "category": "Business",
+        "website": "acompany.tech",
+        "description": "秘密計算技術を活用したデータセキュリティソリューションを提供し、あらゆるデータとAI活用が信頼できるデータ社会の実現を目指す",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Hakki Africa Limited",
+        "initial_investment": "Growth",
+        "category": "Consumer",
+        "website": "hakki-africa.com",
+        "description": "グローバルサウスで有担保オートローン事業を展開し誰もが車を所有できる社会の実現を目指す",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Oceanic Constellations, Inc.",
+        "initial_investment": "Seed",
+        "category": "Frontier",
+        "website": "oceanic-constellations.com",
+        "description": "水上ドローン船と制御ソフトウェアから成るインフラの開発・製造を通じて、「海のみえる化」を実現する",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "ZettaJoule, Inc.",
+        "initial_investment": "Seed",
+        "category": "Frontier",
+        "website": "zetta-joule.com",
+        "description": "日本が誇る高温ガス炉技術によるクリーンエネルギーの供給を通じ、グローバルの次世代産業インフラをアップデートする",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "emol inc.",
+        "initial_investment": "Early",
+        "category": "Frontier",
+        "website": "emol.jp",
+        "description": "治療用アプリの開発と医療サービスの提供を通じてメンタルヘルス医療を当たり前にする",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "TAIAN, Inc.",
+        "initial_investment": "Early",
+        "category": "Business",
+        "website": "taian-inc.com",
+        "description": "バンケット事業者 (婚礼・法人宴会)向けAll-in-one SaaSブライダル・バンケット事業DXを起点に、祝い事から個人・企業の繋がりをエンパワーメントさせる",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Tensor Energy Inc.",
+        "initial_investment": "Seed",
+        "category": "Business",
+        "website": "tensorenergy.jp",
+        "description": "再生可能エネルギー発電所と蓄電池の財務と電力の管理を一気通貫で行うクラウドプラットフォームで電力ビジネスを変革する",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Knowhere.Inc",
+        "initial_investment": "Seed",
+        "category": "Business, Consumer",
+        "website": "knowhere.co.jp",
+        "description": "スマートフォンでの投打のAIボール解析を提供し、野球界のデータインフラ構築を目指す",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "YOUTRUST, Inc.",
+        "initial_investment": "Early",
+        "category": "Business",
+        "website": "youtrust.co.jp",
+        "description": "キャリアSNS×HRテックプラットフォーム事業を通じて、日本の人材流動性を高め日本経済のモメンタムを上げることを目指す",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "UTAITE Co., Ltd.",
+        "initial_investment": "Seed",
+        "category": "Consumer",
+        "website": "utaite.co.jp",
+        "description": "「2.5次元」エンターテイメントIPの開発・運営を通じて、日本発の新しいエンタメジャンルの確立を目指す",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Logomix Inc.",
+        "initial_investment": "Early",
+        "category": "Frontier",
+        "website": "logomix.bio",
+        "description": "独自の大規模ゲノム編集技術を用いたスマートセル設計・構築プラットフォームを提供することで、バイオモノ作り・医療の高度化と脱炭素を推進する",
+        "funding_articles": [
+          {
+            "article_title": "Logomix、総額28億円を調達～米国事業を加速、バイオエコノミーに貢献2025年7月30日 11時00分",
+            "article_url": "/main/html/rd/p/000000003.000081077.html",
+            "funding_amount": "28億円",
+            "article_content": ""
+          }
+        ],
+        "total_funding_articles": 1
+      },
+      {
+        "company_name": "Autify Inc.",
+        "initial_investment": "Early",
+        "category": "Business",
+        "website": "autify.com",
+        "description": "ソフトウェアテストの自動化プラットフォーム「Autify」を通じ、世界中の開発組織の生産性向上を図る",
+        "funding_articles": [
+          {
+            "article_title": "ソフトウェアテストのDXを推進するオーティファイがシリーズBラウンドにて総額20億円の資金調達を実施…2024年6月18日 08時00分",
+            "article_url": "/main/html/rd/p/000000068.000049466.html",
+            "funding_amount": "20億円",
+            "article_content": ""
+          },
+          {
+            "article_title": "オーティファイ、総額11億円のシリーズA資金調達を実施。グローバルの成長加速へ2021年10月6日 11時00分",
+            "article_url": "/main/html/rd/p/000000027.000049466.html",
+            "funding_amount": "11億円",
+            "article_content": ""
+          }
+        ],
+        "total_funding_articles": 2
+      },
+      {
+        "company_name": "medicalforce Inc.",
+        "initial_investment": "Early",
+        "category": "Business",
+        "website": "corp.medical-force.com",
+        "description": "自由診療向けオールインワンSaaS「medicalforce」を通じて、業界の生産性向上と価値最大化を実現する",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "newmo, Inc.",
+        "initial_investment": "Seed",
+        "category": "Consumer",
+        "website": "newmo.me",
+        "description": "タクシー・ライドシェアサービスの運営を通じて、日常や観光需要を支える交通インフラを目指す",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Medii, Inc.",
+        "initial_investment": "Early",
+        "category": "Business",
+        "website": "medii.jp",
+        "description": "医師情報交換プラットフォーム運営＆製薬企業向けマーケティング支援を通して、希少疾患や診断困難症例の診療を推進し、誰も取り残さない医療の実現を目指す",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "Facilo Co., Ltd",
+        "initial_investment": "Early",
+        "category": "Business",
+        "website": "facilo.jp",
+        "description": "住宅売買仲介SaaS「Facilo」を活用したコミュニケーション円滑化や業務効率化により住宅売買体験の向上を目指す",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      },
+      {
+        "company_name": "AnotherBall Pte. Ltd.",
+        "initial_investment": "Seed",
+        "category": "Consumer",
+        "website": "izumo.com",
+        "description": "VTuberライブ配信プラットフォーム\"AniLive\"の運営を通じて、オタクライフを世界中に浸透させる",
+        "funding_articles": [
+          {
+            "article_title": "AnotherBall、シードラウンドにて19億円を調達し、累計調達額は22億円超に2023年11月27日 10時00分",
+            "article_url": "/main/html/rd/p/000000003.000121483.html",
+            "funding_amount": "19億円",
+            "article_content": ""
+          }
+        ],
+        "total_funding_articles": 1
+      },
+      {
+        "company_name": "Helpfeel Inc.",
+        "initial_investment": "Growth",
+        "category": "Business",
+        "website": "corp.helpfeel.com",
+        "description": "高度な検索技術を持つFAQシステム「Helpfeel」を起点に、カスタマーサポートDXで顧客体験をアップデート",
+        "funding_articles": [],
+        "total_funding_articles": 0
+      }
+    ],
+    "total_portfolio_companies": 20,
+    "companies_with_funding": 3,
+    "total_funding_articles": 4
+  },
+  {
+    "vc_name": "JAFCO",
+    "vc_url": "http://www.jafco.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": ""
+    },
+    "year_founded": "1973",
+    "affiliation_type": "Independent",
+    "location": "Toranomon",
+    "ticket_size": "0.5-10.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "2.0",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "WiL",
+    "vc_url": "https://wilab.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "2013",
+    "affiliation_type": "Independent",
+    "location": "Toranomon",
+    "ticket_size": "1.0-10.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.6",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "DCM",
+    "vc_url": "https://www.dcm.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2008",
+    "affiliation_type": "Global",
+    "location": "Hibiya",
+    "ticket_size": "3.0-10.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Z Venture Capital",
+    "vc_url": "http://yj-capital.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2012",
+    "affiliation_type": "Corporate",
+    "location": "Akasaka Mitsuke",
+    "ticket_size": "0.2-1.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "",
+      "frontier": "",
+      "finance": "〇",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Eight Roads Ventures Japan",
+    "vc_url": "https://eightroads.com/en/",
+    "investment_stages": {
+      "seed": "",
+      "early": "",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "1994",
+    "affiliation_type": "Global",
+    "location": "Roppongi",
+    "ticket_size": "5.0-15.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "DNX Ventures",
+    "vc_url": "https://www.dnx.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2011",
+    "affiliation_type": "Global",
+    "location": "Otemachi",
+    "ticket_size": "0.1-5.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.8",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Daiwa Investment",
+    "vc_url": "https://www.daiwa-inv.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2013",
+    "affiliation_type": "Financial Institution",
+    "location": "Tokyo",
+    "ticket_size": "0.2-2.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.6",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Salesforce Ventures",
+    "vc_url": "https://www.salesforce.com/jp/company/ventures/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "2014",
+    "affiliation_type": "Global",
+    "location": "Tokyo",
+    "ticket_size": "0.5-1.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "〇",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "East Ventures",
+    "vc_url": "https://east.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2010",
+    "affiliation_type": "Independent",
+    "location": "Roppongi",
+    "ticket_size": "0.03-0.05",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "10.0",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "DBJ Capital",
+    "vc_url": "https://www.dbj-cap.jp/",
+    "investment_stages": {
+      "seed": "",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2010",
+    "affiliation_type": "Government",
+    "location": "Otemachi",
+    "ticket_size": "1.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.7",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "〇",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "B Dash Ventures",
+    "vc_url": "http://www.bdashventures.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2011",
+    "affiliation_type": "Independent",
+    "location": "Roppongi",
+    "ticket_size": "0.3-0.5",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Archetype Ventures",
+    "vc_url": "http://www.archetype.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2013",
+    "affiliation_type": "Independent",
+    "location": "Azabu Juban",
+    "ticket_size": "0.3‐2.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.9",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "〇",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "SBI Investment",
+    "vc_url": "http://www.sbinvestment.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "1996",
+    "affiliation_type": "Financial Institution",
+    "location": "Roppongi",
+    "ticket_size": "1.0-5.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "4.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "UTEC（University of Tokyo Edge Capital）",
+    "vc_url": "https://www.ut-ec.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": ""
+    },
+    "year_founded": "2004",
+    "affiliation_type": "University",
+    "location": "Roppongi",
+    "ticket_size": "1.0-2.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Drone Fund",
+    "vc_url": "https://dronefund.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": ""
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Independent",
+    "location": "Onarimon",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "1.1",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Japan Post Capital",
+    "vc_url": "https://www.jp-capital.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Financial Institution",
+    "location": "Otemachi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.9",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Energy Environment Investment",
+    "vc_url": "https://ee-investment.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2006",
+    "affiliation_type": "Independent",
+    "location": "Gotanda",
+    "ticket_size": "0.X-2.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "",
+      "enterprise": "",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Mobile Internet Capital",
+    "vc_url": "https://www.mickk.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": ""
+    },
+    "year_founded": "1999",
+    "affiliation_type": "Independent",
+    "location": "Tameike Sando",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Digital Garage Ventures",
+    "vc_url": "",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2009",
+    "affiliation_type": "Corporate",
+    "location": "Daikanyama",
+    "ticket_size": "0.3-1.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Venture United",
+    "vc_url": "https://ventureunited.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2011",
+    "affiliation_type": "Corporate",
+    "location": "Shibuya",
+    "ticket_size": "0.3",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "FFG Venture Business Partners",
+    "vc_url": "http://www.ffg-venture.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2016",
+    "affiliation_type": "Financial Institution",
+    "location": "Fukuoka",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.8",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "iSGS Investment Works",
+    "vc_url": "https://isgs-iw.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2016",
+    "affiliation_type": "Independent",
+    "location": "Roppongi",
+    "ticket_size": "0.2-0.5",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "〇",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "TBS Innovation Partners",
+    "vc_url": "https://tbs-ip.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2013",
+    "affiliation_type": "Corporate",
+    "location": "Akasaka",
+    "ticket_size": "0.5-2.5",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Adways Ventures",
+    "vc_url": "http://adways-ventures.net/ja/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2011",
+    "affiliation_type": "Corporate",
+    "location": "Shinjuku",
+    "ticket_size": "0.1-0.3",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Bonds Investment Group（formerly OPT Ventures)",
+    "vc_url": "https://bonds-ig.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Independent",
+    "location": "Kitasando",
+    "ticket_size": "1.0-5.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "",
+      "legacy": "◎",
+      "frontier": "",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "◎"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "INCJ",
+    "vc_url": "https://www.incj.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2018",
+    "affiliation_type": "Government",
+    "location": "Otemachi",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.8",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "W Ventures",
+    "vc_url": "https://wventures.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2019",
+    "affiliation_type": "Independent",
+    "location": "Shibuya",
+    "ticket_size": "平均0.1-1.0、シード0.1-0.3",
+    "target_geographies": "Japan",
+    "monthly_deals": "2.0",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "F Ventures",
+    "vc_url": "https://f-ventures.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2016",
+    "affiliation_type": "Independent",
+    "location": "Fukuoka",
+    "ticket_size": "0.1-0.3",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Monex Ventures",
+    "vc_url": "http://www.monexventures.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2005",
+    "affiliation_type": "Financial Institution",
+    "location": "Roppongi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "〇",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Coral Capital",
+    "vc_url": "https://coralcap.co/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2019",
+    "affiliation_type": "Independent",
+    "location": "Otemachi",
+    "ticket_size": "初期 ~0.5、追加 ~2.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.2",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Skyland Ventures",
+    "vc_url": "http://www.skyland.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2012",
+    "affiliation_type": "Independent",
+    "location": "Shibuya",
+    "ticket_size": "0.03~0.3",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Keio Innovation Initiative",
+    "vc_url": "https://www.keio-innovation.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2015",
+    "affiliation_type": "University",
+    "location": "Akabanebashi",
+    "ticket_size": "0.1-1.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "ANOBAKA",
+    "vc_url": "",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Corporate",
+    "location": "Shibuya",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.9",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Sparx Asset Management",
+    "vc_url": "https://www.sparx.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "1988",
+    "affiliation_type": "Financial Institution",
+    "location": "Osaki",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "D4V（Design for Ventures）",
+    "vc_url": "",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": ""
+    },
+    "year_founded": "2016",
+    "affiliation_type": "Corporate / Mixed",
+    "location": "Omotesando",
+    "ticket_size": "0.2-3.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.8",
+    "investment_areas": {
+      "health_bio": "◎",
+      "lifestyle": "◎",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "◎",
+      "enterprise": "◎",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Beyond Next Ventures",
+    "vc_url": "http://beyondnextventures.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2014",
+    "affiliation_type": "Independent",
+    "location": "Nihonbashi",
+    "ticket_size": "0.2-1.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.9",
+    "investment_areas": {
+      "health_bio": "◎",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "",
+      "enterprise": "",
+      "other": "◎"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Genesia Ventures",
+    "vc_url": "https://www.genesiaventures.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2016",
+    "affiliation_type": "Independent",
+    "location": "Omotesando",
+    "ticket_size": "初回 ~1.0、追加 ~5.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "2.0-3.0",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "TLM",
+    "vc_url": "http://tlm.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Independent",
+    "location": "Shibuya",
+    "ticket_size": "0.05~0.15",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "DOGAN Beta",
+    "vc_url": "https://dogan.vc/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Independent",
+    "location": "Fukuoka",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "IDATEN Ventures",
+    "vc_url": "https://www.idaten.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Independent",
+    "location": "Roppongi",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Apricot Ventures",
+    "vc_url": "https://apricot.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2018",
+    "affiliation_type": "Independent",
+    "location": "Shibuya",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Scrum Ventures",
+    "vc_url": "https://scrum.vc/ja/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2013",
+    "affiliation_type": "Global",
+    "location": "Hamamatsucho",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.1",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Cyber Agent Capital",
+    "vc_url": "https://cyberagentcapital.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2006",
+    "affiliation_type": "Corporate",
+    "location": "Shibuya",
+    "ticket_size": "0.2-0.5",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Deep Core",
+    "vc_url": "https://deepcore.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Independent",
+    "location": "Hongo 3-chome",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "UB Ventures",
+    "vc_url": "https://ubv.vc/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2018",
+    "affiliation_type": "Corporate",
+    "location": "Roppongi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Full Commit Partners",
+    "vc_url": "https://www.fullcommit-partners.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2018",
+    "affiliation_type": "Independent",
+    "location": "Roppongi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "OLM Ventures",
+    "vc_url": "https://www.olm.co.jp/about/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Corporate",
+    "location": "Wakabayashi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "MTG Ventures",
+    "vc_url": "https://www.mtg.gr.jp/news/detail/2018/10/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2018",
+    "affiliation_type": "Corporate",
+    "location": "Nagoya",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.7",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Regional Revitalization Solutions",
+    "vc_url": "https://kankou-japan.jp/about/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2018",
+    "affiliation_type": "Mixed",
+    "location": "Otemachi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "THESEEDCAPITAL",
+    "vc_url": "https://theseed.vc/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2018",
+    "affiliation_type": "Independent",
+    "location": "Shibuya",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.1",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "",
+      "enterprise": "〇",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Headline (Infinity Ventures)",
+    "vc_url": "https://www.infinityventures.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2008",
+    "affiliation_type": "Independent",
+    "location": "Yoga",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Nissei Capital",
+    "vc_url": "https://www.nissay-cap.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "1991",
+    "affiliation_type": "Insurance",
+    "location": "Tokyo",
+    "ticket_size": "0.2-5.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Dentsu Ventures",
+    "vc_url": "http://dentsu-v.com/",
+    "investment_stages": {
+      "seed": "",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Corporate",
+    "location": "Shiodome",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "GMO VenturePartners",
+    "vc_url": "https://gmo-vp.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2005",
+    "affiliation_type": "Corporate",
+    "location": "Shibuya",
+    "ticket_size": "0.1-3.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Nippon Venture Capital",
+    "vc_url": "https://www.nvcc.co.jp/",
+    "investment_stages": {
+      "seed": "",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "1996",
+    "affiliation_type": "Independent",
+    "location": "Tokyo",
+    "ticket_size": "0.2-1.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Samurai Incubate",
+    "vc_url": "https://www.samurai-incubate.asia/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2008",
+    "affiliation_type": "Independent",
+    "location": "Roppongi",
+    "ticket_size": "0.1-0.5",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Asabi Media Lab Ventures",
+    "vc_url": "https://asahimedialab.vc/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Corporate",
+    "location": "Tsukiji",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.8",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "REVIC Capital",
+    "vc_url": "http://www.revic.co.jp/business/gp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2013",
+    "affiliation_type": "Government",
+    "location": "Otemachi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "QB Capital",
+    "vc_url": "http://qbc.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Mixed",
+    "location": "Fukuoka",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "BASE Partners",
+    "vc_url": "https://www.base.partners/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": ""
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Independent",
+    "location": "Ebisu",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.1",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "MS&AD Ventures",
+    "vc_url": "https://www.msivc.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "1990",
+    "affiliation_type": "Insurance",
+    "location": "Tokyo",
+    "ticket_size": "0.1~5.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "3.0",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "VOYAGE VENTURES",
+    "vc_url": "https://voyage-ventures.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "2011",
+    "affiliation_type": "Corporate",
+    "location": "Shibuya",
+    "ticket_size": "0.1~",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.8",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "◎",
+      "media_ad": "◎",
+      "legacy": "〇",
+      "frontier": "◎",
+      "finance": "",
+      "enterprise": "◎",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Future Venture Capital",
+    "vc_url": "https://www.fvc.co.jp/",
+    "investment_stages": {
+      "seed": "",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "1998",
+    "affiliation_type": "Independent",
+    "location": "Kyoto",
+    "ticket_size": "0.1",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Primal Capital",
+    "vc_url": "http://primalcap.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2014",
+    "affiliation_type": "Independent",
+    "location": "Roppongi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Seibu Capital",
+    "vc_url": "http://www.seibucapital.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2003",
+    "affiliation_type": "Financial Institution",
+    "location": "Nakano",
+    "ticket_size": "0.3",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "〇",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "NTT Docomo Ventures",
+    "vc_url": "https://www.nttdocomo-v.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2008",
+    "affiliation_type": "Corporate",
+    "location": "Roppongi",
+    "ticket_size": "0.5-5.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.8",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Saison Ventures",
+    "vc_url": "https://corporate.saisoncard.co.jp/wr_html/news_data/avmqks0000006265-att/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Financial Institution",
+    "location": "Ikebukuro",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Mistletoe",
+    "vc_url": "http://mistletoe.co/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": ""
+    },
+    "year_founded": "2011",
+    "affiliation_type": "Independent",
+    "location": "Green Mountain",
+    "ticket_size": "0.1~0.5",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Venture Labo Investment",
+    "vc_url": "https://www.venturelaboinvestment.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2000",
+    "affiliation_type": "Independent",
+    "location": "Tsukiji",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.8",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Coloplanext",
+    "vc_url": "https://www.coloplnext.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Corporate",
+    "location": "Ebisu",
+    "ticket_size": "0.1",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Accord Ventures",
+    "vc_url": "http://accordventures.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Independent",
+    "location": "Roppongi",
+    "ticket_size": "0.3-0.5",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Tsuneishi Capital Partners",
+    "vc_url": "http://tsuneishi-cp.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2010",
+    "affiliation_type": "Corporate",
+    "location": "Hiroshima",
+    "ticket_size": "0.1-0.3",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "-",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "gumi ventures",
+    "vc_url": "http://www.gumiventures.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2012",
+    "affiliation_type": "Corporate",
+    "location": "Shinjuku",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Senshu Ikeda Capital",
+    "vc_url": "http://www.ikegin-c.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "1989",
+    "affiliation_type": "Financial Institution",
+    "location": "Osaka",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Hiroshima Venture Capital",
+    "vc_url": "http://www.h-vc.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "1995",
+    "affiliation_type": "Financial Institution",
+    "location": "Hiroshima",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "〇",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Sansei Capital",
+    "vc_url": "https://www.sanseicapital.com/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "1991",
+    "affiliation_type": "Insurance",
+    "location": "Daiba",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.7",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "First Track Initiative",
+    "vc_url": "http://www.fti-jp.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2004",
+    "affiliation_type": "Independent",
+    "location": "Hongo 3-chome",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "REAL TECH FUND",
+    "vc_url": "https://www.realtech.fund/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2014",
+    "affiliation_type": "Mixed",
+    "location": "Tamachi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.9",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Rakuten Capital",
+    "vc_url": "https://capital.rakuten.com/jp/",
+    "investment_stages": {
+      "seed": "",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "2013",
+    "affiliation_type": "Corporate",
+    "location": "Futakotamagawa",
+    "ticket_size": "0.5-5.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Iyogin Capital",
+    "vc_url": "http://www.iyo-capital.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "1985",
+    "affiliation_type": "Financial Institution",
+    "location": "Ehime",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.4",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "AG Capital",
+    "vc_url": "http://www.nf-partners.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "1985",
+    "affiliation_type": "Financial Institution",
+    "location": "Mita",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.9",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "ABC Dream Ventures",
+    "vc_url": "http://adventures.co.jp/",
+    "investment_stages": {
+      "seed": "",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Corporate",
+    "location": "Osaka",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Mirai Sozo",
+    "vc_url": "http://miraisozo.co.jp/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2014",
+    "affiliation_type": "Independent",
+    "location": "Tokyo",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "DG Daiwa Ventures",
+    "vc_url": "https://dg-daiwa-v.com/",
+    "investment_stages": {
+      "seed": "",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2016",
+    "affiliation_type": "Mixed",
+    "location": "Daikanyama",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.2",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Chibagin Capital",
+    "vc_url": "http://www.chibagincapital.co.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "1984",
+    "affiliation_type": "Financial Institution",
+    "location": "Chiba",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Nagoya TV Ventures",
+    "vc_url": "http://nagoyatv-vc.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2017",
+    "affiliation_type": "Corporate",
+    "location": "Nagoya",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Akatsuki",
+    "vc_url": "https://aktsk.jp/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2010",
+    "affiliation_type": "Corporate",
+    "location": "Meguro",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.7",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Tokai Tokyo Investment",
+    "vc_url": "https://www.tokaitokyo-fh.jp/corporate/group/ttinv/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "◎",
+      "middle_growth": "◎",
+      "later": "〇"
+    },
+    "year_founded": "2006",
+    "affiliation_type": "Financial Institution",
+    "location": "Kayabacho",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "0.1",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "〇",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Marubeni Ventures",
+    "vc_url": "https://www.marubeni.com/jp/news/2019/release/",
+    "investment_stages": {
+      "seed": "",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": ""
+    },
+    "year_founded": "2019",
+    "affiliation_type": "Corporate",
+    "location": "Nihonbashi",
+    "ticket_size": "1.0-2.0、Max5.0",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "LINE Ventures（merged in Z Venture Capital",
+    "vc_url": "https://lineventurescorp.com/ja/",
+    "investment_stages": {
+      "seed": "〇",
+      "early": "〇",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2014",
+    "affiliation_type": "Corporate",
+    "location": "Shinjuku",
+    "ticket_size": "",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "0.3",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Chiba Dojo Fund",
+    "vc_url": "https://chiba-dojo.jp/fund/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "",
+      "middle_growth": "",
+      "later": "◎"
+    },
+    "year_founded": "2019",
+    "affiliation_type": "Independent",
+    "location": "Ebisu",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Delight Ventures",
+    "vc_url": "https://delight-ventures.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2019",
+    "affiliation_type": "Independent",
+    "location": "Shibuya",
+    "ticket_size": "0.5～1.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.5",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "Spiral Ventures",
+    "vc_url": "https://spiral-ventures.com/japan/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "◎",
+      "middle_growth": "〇",
+      "later": "〇"
+    },
+    "year_founded": "2015",
+    "affiliation_type": "Independent",
+    "location": "Toranomon",
+    "ticket_size": "0.5～5.0",
+    "target_geographies": "Japan",
+    "monthly_deals": "1.0",
+    "investment_areas": {
+      "health_bio": "◎",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "◎",
+      "frontier": "◎",
+      "finance": "◎",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "DMM VENTURES",
+    "vc_url": "https://ventures.dmm.com/",
+    "investment_stages": {
+      "seed": "◎",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2018",
+    "affiliation_type": "Corporate",
+    "location": "Roppongi",
+    "ticket_size": "0.1",
+    "target_geographies": "Japan and overseas",
+    "monthly_deals": "1.5",
+    "investment_areas": {
+      "health_bio": "〇",
+      "lifestyle": "〇",
+      "media_ad": "〇",
+      "legacy": "〇",
+      "frontier": "〇",
+      "finance": "〇",
+      "enterprise": "〇",
+      "other": "〇"
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  },
+  {
+    "vc_name": "TMI Ventures",
+    "vc_url": "http://www.tmi.gr.jp/topic/2019/",
+    "investment_stages": {
+      "seed": "",
+      "early": "〇",
+      "middle_growth": "",
+      "later": ""
+    },
+    "year_founded": "2019",
+    "affiliation_type": "Corporate",
+    "location": "Roppongi",
+    "ticket_size": "",
+    "target_geographies": "Japan",
+    "monthly_deals": "",
+    "investment_areas": {
+      "health_bio": "",
+      "lifestyle": "",
+      "media_ad": "",
+      "legacy": "",
+      "frontier": "",
+      "finance": "",
+      "enterprise": "",
+      "other": ""
+    },
+    "portfolio_companies": [],
+    "total_portfolio_companies": 0,
+    "companies_with_funding": 0,
+    "total_funding_articles": 0
+  }
+]
